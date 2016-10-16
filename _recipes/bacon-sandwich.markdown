@@ -2,11 +2,12 @@
 title: Bacon Sandwich
 date: 2016-10-16 12:05:00 Z
 Ingredients:
-- 2 slices bread
-- Butter
-- 2 rashers bacon
-- Ketchup
-Steps: 
+  Bacon: 200g
+  Bread: 2 slices
+Steps:
+- Fry bacon
+- Butter bread
+- 
 layout: post
 ---
 
