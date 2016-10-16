@@ -1,10 +1,10 @@
 ---
 title: Bacon Sandwich
 date: 2016-10-16 12:05:00 Z
-Ingredients:
+ingredients:
   Bacon: 200g
   Bread: 2 slices
-Steps:
+steps:
 - Fry bacon
 - Butter bread
 - 
