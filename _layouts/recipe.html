@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<aside class="recipe--ingredients">
+  <strong>Ingredients</strong>
+  <ul class="recipe--ingredients-list">
+    {% for ingredient in page.ingredients %}
+      <li>
+        <strong>
+          {{ ingredient[0] }}
+        </strong>
+        <span>
+          {{ ingredient[1] }}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  <p>{{ page.content | markdownify }}</p>
+
+  <ol class="recipe--steps">
+    {% for step in page.steps %}
+      <li>
+        <p>{{ step }}</p>
+      </li>
+    {% endfor %}
+  </ol>
+</article>
