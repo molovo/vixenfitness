@@ -27,7 +27,7 @@ defaults:
     ingredients:
       Ingredient: amount
     steps:
-    -
+    - 
 - scope:
     path: ''
     type: pages
