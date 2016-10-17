@@ -2,8 +2,8 @@
 title: Wings Fitness
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  articles:
+    title: Articles
     output: true
   recipes:
     title: Recipes
@@ -12,15 +12,25 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
+  - scope:
+      path: '/blog'
+      type: articles
+    values:
+      layout: article
+      permalink: "/blog/:title/"
+  - scope:
+      path: '/recipes'
+      type: recipes
+    values:
+      layout: recipe
+      permalink: "/recipes/:title/"
+      ingredients:
+        Ingredient: amount
+      steps:
+        -
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
 permalink: pretty
