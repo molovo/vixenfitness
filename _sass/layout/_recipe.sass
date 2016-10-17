@@ -1,0 +1,44 @@
+.content
+  align-items: flex-start
+  display: flex
+
+  article
+    padding-right: 1.5em
+
+.recipe
+  &--ingredients
+    flex: 0 0 9em
+    margin: 4.5em 0 0 1.5em
+    order: 2
+
+    ul
+      list-style: none
+
+    li
+      display: flex
+      font-size: .75em
+      justify-content: space-between
+
+  &--steps
+    counter-reset: recipe--step-counter
+    list-style: none
+
+    li
+      border-bottom: 1px solid $light
+      padding: .75em 0
+
+      &::before
+        color: $plum
+        content: counter(recipe--step-counter)
+        counter-increment: recipe--step-counter
+        display: inline-block
+        font:
+          size: 1.5em
+          weight: 700
+        vertical-align: middle
+        width: 1.5em
+
+      p
+        display: inline-block
+        margin: 0
+        vertical-align: middle
