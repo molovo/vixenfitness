@@ -5,6 +5,7 @@ collections:
   articles:
     title: Articles
     output: true
+    permalink: "/blog/:path"
   posts:
     title: Posts
     output: true
