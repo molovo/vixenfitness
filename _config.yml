@@ -5,6 +5,9 @@ collections:
   articles:
     title: Articles
     output: true
+  posts:
+    title: Posts
+    output: true
   recipes:
     title: Recipes
     output: true
@@ -12,25 +15,25 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: '/blog'
-      type: articles
-    values:
-      layout: article
-      permalink: "/blog/:title/"
-  - scope:
-      path: '/recipes'
-      type: recipes
-    values:
-      layout: recipe
-      permalink: "/recipes/:title/"
-      ingredients:
-        Ingredient: amount
-      steps:
-        -
-  - scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
+- scope:
+    path: "/blog"
+    type: articles
+  values:
+    layout: article
+    permalink: "/blog/:title/"
+- scope:
+    path: "/recipes"
+    type: recipes
+  values:
+    layout: recipe
+    permalink: "/recipes/:title/"
+    ingredients:
+      Ingredient: amount
+    steps:
+    - 
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
 permalink: pretty
