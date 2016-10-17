@@ -5,6 +5,9 @@ collections:
   articles:
     title: Articles
     output: true
+  posts:
+    title: Posts
+    output: true
   recipes:
     title: Recipes
     output: true
@@ -13,13 +16,13 @@ collections:
     output: true
 defaults:
 - scope:
-    path: "_articles"
+    path: _articles
     type: articles
   values:
     layout: article
     permalink: "/blog/:title/"
 - scope:
-    path: "_recipes"
+    path: _recipes
     type: recipes
   values:
     layout: recipe
