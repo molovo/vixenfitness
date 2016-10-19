@@ -2,6 +2,8 @@
 layout: base
 ---
 
-<h1 class="page--title">{{ page.title }}</h1>
+<article class="page--content">
+  <h1 class="page--title">{{ page.title }}</h1>
 
-{{ page.content | markdownify }}
+  {{ page.content | markdownify }}
+</article>
