@@ -2,13 +2,14 @@
 layout: base
 ---
 
-{% for recipe in site.articles %}
-  <article class="article">
+{% for post in site.posts %}
+  <article class="blog--post">
     <h2>
-      <a href="{{ article.url }}">
-        {{ article.title }}
+      <a href="{{ post.url }}">
+        {{ post.title }}
       </a>
     </h2>
-    <p>{{ article.content }}</p>
+
+    {{ post.content }}
   </article>
 {% endfor %}
