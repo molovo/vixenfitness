@@ -1,22 +1,43 @@
-.content
-  align-items: flex-start
-  display: flex
-
-  article
-    padding-right: 1.5em
-
 .recipe
-  &--ingredients
-    flex: 0 0 9em
-    margin: 4.5em 0 0 1.5em
+  article
+    @media (min-width: 80em)
+      align-items: flex-start
+      display: flex
+      justify-content: space-between
+      padding-right: $baseline
+
+  &--list
+    &-item
+      &-info
+        color: $plum
+        list-style: none
+        margin: 0 0 $baseline
+
+        li
+          display: inline-block
+          font-size: .75em
+          margin-right: $baseline
+
+          strong
+            font-weight: bold
+
+  &--info
+    flex: 0 0 12em
+    font-size: .75em
     order: 2
+    width: 12em
+
+    @media (min-width: 80em)
+      margin-left: #{2 * $baseline}
+
+    &-ingredients
+      margin-top: $baseline
 
     ul
       list-style: none
 
-    li
+    li, &-item
       display: flex
-      font-size: .75em
       justify-content: space-between
 
   &--steps
@@ -24,21 +45,18 @@
     list-style: none
 
     li
+      display: flex
       border-bottom: 1px solid $light
-      padding: .75em 0
+      padding: $baseline 0
 
       &::before
         color: $plum
         content: counter(recipe--step-counter)
         counter-increment: recipe--step-counter
-        display: inline-block
         font:
           size: 1.5em
           weight: 700
-        vertical-align: middle
-        width: 1.5em
+        width: $baseline
 
       p
-        display: inline-block
         margin: 0
-        vertical-align: middle

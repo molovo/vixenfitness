@@ -8,6 +8,7 @@ collections:
   recipes:
     title: Recipes
     output: true
+    permalink: "/recipes/:path"
   uploads:
     title: Uploads
     output: true
@@ -17,7 +18,18 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
+    permalink: "/blog/:title/"
+- scope:
+    path: ''
+    type: recipes
+  values:
+    layout: recipe
+    permalink: "/recipes/:title/"
+    serves: 2
+    preparation_time: 15mins
+    ingredients: 
+    steps:
+    - 
 - scope:
     path: ''
     type: pages
