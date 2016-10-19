@@ -1,6 +1,8 @@
 ---
 title: Bacon Sandwich
 date: 2016-10-16 12:05:00 Z
+serves: 2
+preparation_time: 15mins
 ingredients:
   Bacon: 200g
   Bread: 2 slices
