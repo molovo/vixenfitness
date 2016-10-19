@@ -1,31 +1,28 @@
 .recipe
-  @media (min-width: 80em)
-    align-items: flex-start
-    display: flex
-    justify-content: space-between
-    padding-right: 1.5em
+  article
+    @media (min-width: 80em)
+      align-items: flex-start
+      display: flex
+      justify-content: space-between
+      padding-right: $baseline
 
-  &--content
-    max-width: $container-width
-
-    img
-      margin: 0 -3em
-      max-width: calc(100% + 3em)
-
-  &--ingredients
+  &--info
     flex: 0 0 9em
+    font-size: .75em
     order: 2
     width: 9em
 
     @media (min-width: 80em)
-      margin-left: 3em
+      margin-left: #{2 * $baseline}
+
+    &-ingredients
+      margin-top: $baseline
 
     ul
       list-style: none
 
-    li
+    li, &-item
       display: flex
-      font-size: .75em
       justify-content: space-between
 
   &--steps

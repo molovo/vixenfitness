@@ -25,10 +25,12 @@ defaults:
   values:
     layout: recipe
     permalink: "/recipes/:title/"
+    serves: 2
+    preparation_time: 15mins
     ingredients:
       Ingredient: amount
     steps:
-    - 
+    -
 - scope:
     path: ''
     type: pages

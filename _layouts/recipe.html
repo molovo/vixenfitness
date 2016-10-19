@@ -4,21 +4,33 @@ layout: base
 
 <h1>{{ page.title }}</h1>
 
-<article class="recipe">
-  <aside class="recipe--ingredients">
-    <strong>Ingredients</strong>
-    <ul class="recipe--ingredients-list">
-      {% for ingredient in page.ingredients %}
-        <li>
-          <strong>
-            {{ ingredient[0] }}
-          </strong>
-          <span>
-            {{ ingredient[1] }}
-          </span>
-        </li>
-      {% endfor %}
-    </ul>
+<article>
+  <aside class="recipe--info">
+    <div class="recipe--info-item">
+      <strong>Serves</strong>
+      {{ page.serves }}
+    </div>
+
+    <div class="recipe--info-item">
+      <strong>Preparation Time</strong>
+      {{ page.preparation_time }}
+    </div>
+
+    <div class="recipe--info-ingredients">
+      <strong>Ingredients</strong>
+      <ul class="recipe--info-ingredients-list">
+        {% for ingredient in page.ingredients %}
+          <li>
+            <strong>
+              {{ ingredient[0] }}
+            </strong>
+            <span>
+              {{ ingredient[1] }}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </aside>
 
   <div class="recipe--content">

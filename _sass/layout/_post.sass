@@ -1,0 +1,24 @@
+.post,
+.recipe
+  &--content
+    max-width: $container-width
+
+    img
+      margin: 0 -3em
+      max-width: calc(100% + 3em)
+
+.post
+  &--list
+    list-style: none
+
+    &-item
+      margin: $baseline 0
+
+      &:not(:last-child)
+        border-bottom: 1px solid $light
+
+      date
+        color: $plum
+        font:
+          size: .75em
+          weight: bold

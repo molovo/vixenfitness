@@ -2,14 +2,20 @@
 layout: base
 ---
 
-{% for post in site.posts %}
-  <article class="blog--post">
-    <h2>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
+<ul class="post--list">
+  {% for post in site.posts %}
+    <li class="post--list-item">
+      <article>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
 
-    {{ post.content }}
-  </article>
-{% endfor %}
+        <date>{{ post.date | date: "%d %B %Y" }}</date>
+
+        {{ post.content }}
+      </article>
+    </li>
+  {% endfor %}
+</ul>
