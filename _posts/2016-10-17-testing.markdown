@@ -1,7 +1,6 @@
 ---
 title: Testing
 date: 2016-10-17 19:13:00 Z
-layout: article
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui tempora aperiam vero laudantium ipsam provident. Nisi labore, ea perferendis aspernatur sed veritatis excepturi animi voluptatum quos deleniti voluptates. Sunt, dolore?
