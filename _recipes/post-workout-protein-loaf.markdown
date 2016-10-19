@@ -16,7 +16,7 @@ ingredients:
 steps:
 - Mix oats, cocoa powder and whey protein powder in a bowl.
 - Add mashed banana, a squeeze of honey and a dash of milk to make a sticky, story
-  mix. It needs to hold it shape so don't make the mixture too funny.
+  mix. It needs to hold it shape so don't make the mixture too runny.
 - Add the nuts, seeds and fruit and stir to ensure they are evenly mixed throughout.
 - Spread the mixture into a cake tin lined with grease proof paper and place in a
   preheated heated over at 200 degrees.
