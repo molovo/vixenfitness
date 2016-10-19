@@ -6,11 +6,26 @@
       justify-content: space-between
       padding-right: $baseline
 
+  &--list
+    &-item
+      &-info
+        color: $plum
+        list-style: none
+        margin: 0 0 $baseline
+
+        li
+          display: inline-block
+          font-size: .75em
+          margin-right: $baseline
+
+          strong
+            font-weight: bold
+
   &--info
-    flex: 0 0 9em
+    flex: 0 0 12em
     font-size: .75em
     order: 2
-    width: 9em
+    width: 12em
 
     @media (min-width: 80em)
       margin-left: #{2 * $baseline}

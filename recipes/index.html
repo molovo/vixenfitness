@@ -2,13 +2,29 @@
 layout: base
 ---
 
-{% for recipe in site.recipes %}
-  <article class="recipe">
-    <h2>
-      <a href="{{ recipe.url }}">
-        {{ recipe.title }}
-      </a>
-    </h2>
-    <p>{{ recipe.content }}</p>
-  </article>
-{% endfor %}
+<ul class="recipe--list">
+  {% for recipe in site.recipes %}
+    <li class="recipe--list-item">
+      <article>
+        <h3>
+          <a href="{{ recipe.url }}">
+            {{ recipe.title }}
+          </a>
+        </h3>
+
+        <ul class="recipe--list-item-info">
+          <li>
+            <strong>Serves</strong>
+            {{ recipe.serves }}
+          </li>
+          <li>
+            <strong>Preparation Time</strong>
+            {{ recipe.preparation_time }}
+          </li>
+        </ul>
+
+        {{ recipe.excerpt | markdownify }}
+      </article>
+    </li>
+  {% endfor %}
+</ul>

@@ -12,9 +12,9 @@ layout: base
           </a>
         </h3>
 
-        <date>{{ post.date | date: "%d %B %Y" }}</date>
+        <date class="post--date">{{ post.date | date: "%d %B %Y" }}</date>
 
-        {{ post.content }}
+        {{ post.excerpt }}
       </article>
     </li>
   {% endfor %}

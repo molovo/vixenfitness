@@ -2,10 +2,10 @@
 layout: base
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
+<h1 class="post--title">{{ page.title }}</h1>
 
-  <date>{{ page.date | date: "%d %B %Y" }}</date>
+<article class="post--content">
+  <date class="post--date">{{ page.date | date: "%d %B %Y" }}</date>
 
   {{ page.content | markdownify }}
 </article>
