@@ -14,7 +14,7 @@ ingredients:
   Chicken stock: 225ml
   Coconut oil: 1tsp
   Chilli flakes: to taste
-  Pumpkin and flax seeds:
+  Pumpkin and flax seeds: 
 steps:
 - Mix the chicken stock with the Cous Cous in a large mixing bowl and cover for 5
   mins.
