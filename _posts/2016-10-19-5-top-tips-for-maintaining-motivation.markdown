@@ -1,6 +1,7 @@
 ---
 title: 5 Top Tips for Maintaining Motivation
 date: 2016-10-19 18:52:00 Z
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores placeat soluta voluptatibus quia veniam saepe iure sapiente culpa.
 ---
 
 Lots of people use a lack of motivation as their main excuse for not working out regularly. If this is you - then follow these rules! I use this simple set of guidelines to ensure my motivation doesn't waver. If you've got any motivation tips of your own, feel free to add them in the comments.

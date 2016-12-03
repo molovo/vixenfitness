@@ -5,16 +5,16 @@ serves: 4
 preparation_time: 15 mins
 ingredients:
   Wholewheat cous cous: 150g
-  Celery (cut into small chunks): 1 stick
-  Chopped peppers: 2 handfuls
-  Pumpkin and Flax seed: Sprinkle
-  Cucumber (cut into small pieces): 2 inches
-  Cherry tomatoes (cut into eighths): 8
+  Celery (chopped): 1 stick
+  Peppers (chopped): 2 handfuls
+  Cucumber (chopped): 2 inches
+  Cherry tomatoes: 8
   Avocado (sliced): 1
   Halloumi: 12 slices
   Chicken stock: 225ml
   Coconut oil: 1tsp
-  Chilli flakes: Seasoned to taste
+  Chilli flakes: to taste
+  Pumpkin and flax seeds:
 steps:
 - Mix the chicken stock with the Cous Cous in a large mixing bowl and cover for 5
   mins.
@@ -25,4 +25,4 @@ steps:
   avocado, halloumi and a sprinkle of chilli flakes.
 ---
 
-[IMG_3050.JPG](/uploads/IMG_3050.JPG)
+![IMG_3050.JPG](/uploads/IMG_3050.JPG)

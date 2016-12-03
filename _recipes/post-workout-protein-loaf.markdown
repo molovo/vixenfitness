@@ -1,18 +1,19 @@
 ---
 title: Post-Workout Protein Loaf
 date: 2016-10-19 19:02:00 Z
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 serves: 12
 preparation_time: 10 mins
 ingredients:
-  Rolled Oats: 
-  Banana: 
-  Nut Milk (I use coconut or unsweetened almond milk): 
-  Cocoa powder: 
-  Honey: 
-  Nuts (I use walnuts): 
-  Seeds (I use a mix of Chia, Flax and Pumpkin): 
-  Fruit (fresh or dried): 
-  Whey protein powder: 
+  Rolled Oats:
+  Banana:
+  Nut Milk (I use coconut or unsweetened almond milk):
+  Cocoa powder:
+  Honey:
+  Nuts (I use walnuts):
+  Seeds (I use a mix of Chia, Flax and Pumpkin):
+  Fruit (fresh or dried):
+  Whey protein powder:
 steps:
 - Mix oats, cocoa powder and whey protein powder in a bowl.
 - Add mashed banana, a squeeze of honey and a dash of milk to make a sticky, story
