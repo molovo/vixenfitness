@@ -25,4 +25,4 @@ steps:
 - Serve and garnish with rocket.
 ---
 
-[IMG_4168.JPG](/uploads/IMG_4168.JPG)
+![IMG_4168.JPG](/uploads/IMG_4168.JPG)
