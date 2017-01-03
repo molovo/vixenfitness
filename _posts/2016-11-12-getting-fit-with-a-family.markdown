@@ -1,6 +1,6 @@
 ---
 title: Getting Fit With a Family
-date: 2016-10-19 18:39:00 Z
+date: 2016-11-12 19:39:00 +00:00
 description: Find it hard to fit in a workout around your family schedule? Find out
   how I manage to balance family life and a fitness regime.
 ---
