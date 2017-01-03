@@ -1,7 +1,7 @@
 ---
 title: 5 Top Tips for Maintaining Motivation
 date: 2016-10-19 18:52:00 Z
-description: Even the best athletes suffer with motivation from time to time. Dont
+description: Even the best athletes suffer with motivation from time to time. Don't
   fall victim to a lack of motivation by following these 5 simple tips.
 ---
 
