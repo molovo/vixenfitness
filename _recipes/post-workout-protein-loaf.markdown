@@ -1,8 +1,6 @@
 ---
 title: Post-Workout Protein Loaf
 date: 2016-10-19 19:02:00 Z
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
 serves: 12
 preparation_time: 10 mins
 ingredients:
@@ -27,6 +25,8 @@ steps:
   slices.
 - Once cool the slices can be kept in the fridge for 3 days or frozen for about a
   month. I keep a stock in my freezer and simply defrost when required.
+description: Aid muscle repair and refuel after your workout with this easy to make
+  protein loaf.
 ---
 
 ![IMG_3049.JPG](/uploads/IMG_3049.JPG)
