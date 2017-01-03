@@ -1,6 +1,6 @@
 ---
 title: "'Fad Diets' - Why you should avoid them at all cost!"
-date: 2016-10-19 18:50:00 Z
+date: 2016-12-03 19:50:00 +00:00
 description: It's easy to look for a quick fix when trying to achieve your goals but
   this post will explain exactly why that quick fix is a huge waste of time and money!
 ---
