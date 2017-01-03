@@ -1,16 +1,27 @@
 .sidebar
   background: $light
-  flex: 0 0 250px
   padding: 2.25em 1.5em
 
+  @media (min-width: 64em)
+    flex: 0 0 250px
+
   &--nav
+    display: flex
+    flex-wrap: wrap
     font-size: .75em
     list-style: none
 
     a
       color: inherit
-      display: block
+      flex: 0 0 50%
+      text-align: center
       text-decoration: none
+
+      @media (min-width: 36em)
+        flex: 0 0 25%
+
+      @media (min-width: 64em)
+        flex: 0 0 100%
 
       &.active
         color: $plum
