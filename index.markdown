@@ -9,7 +9,7 @@ layout: base
   <img src="/uploads/gemma.jpg" alt="Portrait of Gemma Holloway" />
 
   <p>
-    I'm Gemma Holloway, a 28 year old mummy from South East England.
+    I'm Gemma Holloway, a recently qualified fitness instructor and 28 year old mummy from South East England.
   </p>
 </section>
 
