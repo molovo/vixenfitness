@@ -13,9 +13,11 @@ body
     height: 100%
 
 main
-  flex: 1 1 100%
-  overflow-y: auto
   padding: 3em 3em 0
+
+  @media (min-width: 64em)
+    flex: 1 1 100%
+    overflow-y: auto
 
 .content
   img
