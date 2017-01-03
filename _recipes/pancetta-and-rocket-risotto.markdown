@@ -23,6 +23,8 @@ steps:
 - 'Once all stock is absorbed, rice should be al dente. Add creme fraiche and stir
   through on low heat. '
 - Serve and garnish with rocket.
+description: This Italian inspired recipe offers creamy indulgence with none of the
+  guilt.
 ---
 
 ![IMG_4168.JPG](/uploads/IMG_4168.JPG)
