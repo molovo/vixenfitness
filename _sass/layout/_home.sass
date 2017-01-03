@@ -20,9 +20,11 @@
   &--latest-blog,
   &--latest-recipe
     flex: 0 0 50%
+    margin: 0 0 $baseline
 
-  &--latest-blog
-    padding-right: 1.5em
+  @media (min-width: $bp-medium)
+    &--latest-blog
+      padding-right: 1.5em
 
-  &--latest-recipe
-    padding-left: 1.5em
+    &--latest-recipe
+      padding-left: 1.5em
