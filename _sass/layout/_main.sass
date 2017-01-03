@@ -1,11 +1,16 @@
 body
   display: flex
+  flex-direction: column
+
+  @media (min-width: 64em)
+    flex-direction: row
 
   &.page--home
     background: url('//hd.unsplash.com/photo-1434754205268-ad3b5f549b11') center / cover no-repeat
 
-.sidebar, main
-  height: 100%
+@media (min-width: 64em)
+  .sidebar, main
+    height: 100%
 
 main
   flex: 1 1 100%

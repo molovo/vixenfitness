@@ -22,12 +22,13 @@
             font-weight: bold
 
   &--info
-    flex: 0 0 15em
     font-size: .75em
     order: 2
-    width: 12em
+    max-width: 32em
 
     @media (min-width: 80em)
+      flex: 0 0 15em
+      width: 12em
       margin-left: #{2 * $baseline}
 
     &-ingredients
