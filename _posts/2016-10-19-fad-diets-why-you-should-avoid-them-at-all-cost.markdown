@@ -1,6 +1,8 @@
 ---
 title: "'Fad Diets' - Why you should avoid them at all cost!"
 date: 2016-10-19 18:50:00 Z
+description: It's easy to look for a quick fix when trying to achieve your goals but
+  this post will explain exactly why that quick fix is a huge waste of time and money!
 ---
 
 As human beings we endeavour to find a 'quick fix' for weight loss. From 'healthy eating plans', to shake replacements, the market is inundated with solutions to help you lose weight fast. I'm not denying that some of these plans will help you shed the pounds - but I strongly disagree with the concept of these and here's why;
