@@ -1,6 +1,8 @@
 ---
 title: Post-Workout Protein Loaf
 date: 2016-10-19 19:02:00 Z
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.
 serves: 12
 preparation_time: 10 mins
 ingredients:

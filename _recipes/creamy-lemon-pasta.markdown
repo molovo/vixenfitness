@@ -19,4 +19,4 @@ steps:
   thoroughly mixed and spinach has wilted. Season with pepper and serve.
 ---
 
-[IMG_3051.JPG](/uploads/IMG_3051.JPG)
+![IMG_3051.JPG](/uploads/IMG_3051.JPG)

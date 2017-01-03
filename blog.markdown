@@ -4,4 +4,4 @@ date: 2016-10-19 19:00:00 Z
 layout: post-list
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Join me in my fitness journey as I blog about various topics including nutrition, motivation and technique. Feel free to contact me if there are any subjects you'd like me to cover and I'd love to hear your feedback in the comments section of each post. Let's make this journey a joint one!  

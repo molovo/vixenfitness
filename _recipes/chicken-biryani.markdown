@@ -26,4 +26,4 @@ steps:
 - Stir in creme fraiche and serve.
 ---
 
-[IMG_3052.JPG](/uploads/IMG_3052.JPG)
+![IMG_3052.JPG](/uploads/IMG_3052.JPG)
