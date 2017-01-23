@@ -23,3 +23,4 @@ steps:
 Description: Delicious low fat vegetarian bean dish.
 ---
 
+[IMG_4298.JPG](/uploads/IMG_4298.JPG)
