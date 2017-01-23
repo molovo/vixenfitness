@@ -17,7 +17,7 @@ layout: base
   <div class="links--latest-blog">
     <h6>Latest Blog Post</h6>
 
-    {% assign post = site.posts | reverse | first %}
+    {% assign post = site.posts.first %}
     <h4>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h4>
