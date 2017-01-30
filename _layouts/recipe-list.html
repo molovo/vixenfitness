@@ -7,7 +7,8 @@ layout: base
 {{ page.content | markdownify }}
 
 <ul class="recipe--list">
-  {% for recipe in site.recipes %}
+  {% assign recipes = site.recipes | reverse %}
+  {% for recipe in recipes %}
     <li class="recipe--list-item">
       <article>
         <h3>
