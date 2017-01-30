@@ -1,7 +1,8 @@
 ---
-title: ChickenPaprikash
+title: Chicken Paprikash
 date: 2017-01-30 19:57:00 +00:00
 serves: 4
+preparation_time: '45 mins '
 ingredients:
   Red onions, chopped: 2
   Peppers, chopped: 2
