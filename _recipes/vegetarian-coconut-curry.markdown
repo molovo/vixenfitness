@@ -19,6 +19,8 @@ steps:
 - Add vegetables and stir to coat with the paste.
 - Add coconut milk, cover and simmer until vegetables are cooked. Serve with bulgar
   wheat.
+Description: Enjoy a guilt free curry with my recipe for vegetarian coconut curry.
+  Creamy, sweet and tasty.
 ---
 
 ![IMG_4775.JPG](/uploads/IMG_4775.JPG)
