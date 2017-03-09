@@ -1,7 +1,9 @@
 ---
 title: Is your diet really as good as it seems?
 date: 2017-03-09 22:17:00 +00:00
-Field name: 
+Field name:
+  description: Quick fix diets may offer fast results but are they really good for
+    you? Find out more.
 ---
 
 In today's health-conscious society, the health and fitness market is overflowing with an abundance of quick fixes. From miracle juices to celebrity endorsed diets and everything in between, these solutions offer the results you've been longing for without the hard work required to get there. But are they really as good as they seem?
