@@ -1,11 +1,13 @@
 ---
 title: One for the ladies - When Mother Nature visits
 date: 2017-03-16 14:33:00 +00:00
+description: Don't let Mother Nature halt your progress anymore! Use these tips to
+  combat cravings and a lack of motivation.
 ---
 
 For many women their time of the month can result in emotional calorie consumption and lack of motivation to work out. I, for one, know that when my time of the month approaches I want to do nothing more than curl up on the sofa and consume vast amounts of chocolate. Problem is, this can have a huge impact on your progress, so I've put together some tips and tricks to help you avoid emotional eating and lack of motivation so that your progress doesn't suffer on a monthly basis.
 
-# Give me all the sugar
+## Give me all the sugar
 
 When eating emotionally, it's usually comfort that is being sought as opposed to craving the food itself. When these desires hit, question what it is you are actually seeking. If it's the comfort you require, consider achieving it via alternate methods. Candles, blankets, hot drinks and chick flicks quite often work for me! 
 
@@ -15,7 +17,7 @@ It's also worth noting that intense food cravings are usually short lived. As a 
 
 So that's a bit about the food cravings during this time of the month - now let's take a look at lack of motivation. 
 
-# Motivation or lack thereof 
+## Motivation or lack thereof 
 
 First and foremost, it is crucial to identify what it is that's causing your lack of motivation. For some it'll be increased fatigue, others will experience a change in mood and sometimes it's the dreaded period pains! The cause will determine how best to address your lack of motivation.
 
