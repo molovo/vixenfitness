@@ -5,6 +5,7 @@ description: Don't let Mother Nature halt your progress anymore! Use these tips 
   combat cravings and a lack of motivation.
 ---
 
+![IMG_5024.JPG](/uploads/IMG_5024.JPG)
 For many women their time of the month can result in emotional calorie consumption and lack of motivation to work out. I, for one, know that when my time of the month approaches I want to do nothing more than curl up on the sofa and consume vast amounts of chocolate. Problem is, this can have a huge impact on your progress, so I've put together some tips and tricks to help you avoid emotional eating and lack of motivation so that your progress doesn't suffer on a monthly basis.
 
 ## Give me all the sugar
