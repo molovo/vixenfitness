@@ -1,0 +1,48 @@
+.intro
+  box-sizing: border-box
+  height: calc(100vh - #{$baseline * 2})
+
+  &__container
+    backdrop-filter: saturate(1.25) contrast(1) brightness(.75);
+    background: rgba($color-plum, 0.1);
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    height: 100%
+    justify-content: center
+    padding: 0 #{2 * $baseline}
+    width: 100%
+
+  h1, h4
+    flex: 0 0 auto
+
+  h1
+    color: $color-white
+    text-transform: uppercase
+
+  &__fullstop
+    color: $color-plum
+
+    &:first-of-type, &:nth-of-type(2)
+      margin-left: -.15em
+
+.intro--home
+  background: $color-plum url('/img/bg2.jpg') center / cover no-repeat
+
+  .intro__container
+    backdrop-filter: saturate(0) contrast(1) brightness(1)
+    background: rgba($color-plum, .9)
+
+.intro--recipes
+  background: $color-yellow url('/img/recipes-bg.jpg') center / cover no-repeat
+
+  .intro__container
+    backdrop-filter: saturate(0) contrast(1) brightness(1)
+    background: rgba($color-yellow, .9)
+
+.intro--posts
+  background: $color-lilac url('/img/posts-bg.jpg') center / cover no-repeat
+
+  .intro__container
+    backdrop-filter: saturate(0) contrast(1) brightness(1)
+    background: rgba($color-lilac, .9)

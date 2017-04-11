@@ -1,0 +1,20 @@
+.signup
+  padding: #{$baseline * 2}
+
+  &__form
+    display: flex
+
+  &__input, &__submit
+    box-sizing: border-box
+    font:
+      family: $font-primary
+      size: 1em
+      weight: 700
+    margin: 0
+    padding: #{(2/3) * .5 * $baseline} #{(2/3) * $baseline}
+
+  &__input
+    flex: 0 1 100%
+
+  &__submit
+    flex: 0 0 auto

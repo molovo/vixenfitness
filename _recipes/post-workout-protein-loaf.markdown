@@ -25,11 +25,9 @@ steps:
   slices.
 - Once cool the slices can be kept in the fridge for 3 days or frozen for about a
   month. I keep a stock in my freezer and simply defrost when required.
-description: Aid muscle repair and refuel after your workout with this easy to make
-  protein loaf.
+description: Aid muscle repair and refuel after your workout with this easy to make protein loaf.
+image: '/uploads/IMG_3049.JPG'
 ---
-
-![IMG_3049.JPG](/uploads/IMG_3049.JPG)
 
 Protein is essential for muscle repair following a workout. Following a heavy workout, to avoid stuffing my face with everything the fridge contains, I created this protein loaf to keep hunger at bay whilst ensuring my body gets all the goodness it needs to refuel and repair.
 

@@ -18,6 +18,5 @@ steps:
 - Add creme fraiche, lemon, spinach and spaghetti to the frying pan and stir until
   thoroughly mixed and spinach has wilted. Season with pepper and serve.
 desciption: Perfect for a summers evening, this pasta recipe is simple and zesty.
+image: '/uploads/IMG_3051.JPG'
 ---
-
-![IMG_3051.JPG](/uploads/IMG_3051.JPG)

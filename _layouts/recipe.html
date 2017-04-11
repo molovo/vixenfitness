@@ -2,41 +2,40 @@
 layout: base
 ---
 
-<h1 class="recipe--title">{{ page.title }}</h1>
+<article class="recipe">
+  <aside class="recipe__info">
+    <h6>Recipe Info</h6>
 
-<article>
-  <aside class="recipe--info">
-    <div class="recipe--info-item">
-      <strong>Serves</strong>
-      {{ page.serves }}
+    <div class="recipe__info-item">
+      Serves
+      <span class="highlight--lilac">{{ page.serves }}</span>
     </div>
 
-    <div class="recipe--info-item">
-      <strong>Preparation Time</strong>
-      {{ page.preparation_time }}
+    <div class="recipe__info-item">
+      Preparation Time
+      <span class="highlight--lilac">{{ page.preparation_time }}</span>
     </div>
 
-    <div class="recipe--info-ingredients">
-      <strong>Ingredients</strong>
-      <ul class="recipe--info-ingredients-list">
-        {% for ingredient in page.ingredients %}
-          <li>
-            <span>
-              {{ ingredient[0] }}
-            </span>
-            <span>
-              {{ ingredient[1] }}
-            </span>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+    <h6>Ingredients</h6>
+
+    <ul class="recipe__ingredients">
+      {% for ingredient in page.ingredients %}
+        <li>
+          <span>
+            {{ ingredient[0] }}
+          </span>
+          <span class="highlight--lilac">
+            {{ ingredient[1] }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
   </aside>
 
-  <div class="recipe--content">
+  <div class="recipe__content">
     {{ page.content | markdownify }}
 
-    <ol class="recipe--steps">
+    <ol class="recipe__steps">
       {% for step in page.steps %}
         <li>
           <p>{{ step }}</p>
@@ -45,3 +44,5 @@ layout: base
     </ol>
   </div>
 </article>
+
+{% include signup.html %}

@@ -1,8 +1,7 @@
 ---
 title: I Get By With a Little Help From My Friends
 date: 2016-10-01 18:30:00 Z
-description: It's important to have inspiration from others when trying to achieve
-  your goals. Find out here who inspires my journey.
+description: It's important to have inspiration from others when trying to achieve your goals. Find out here who inspires my journey.
 ---
 
 Ok, so these people may not actually be my friends as such, but drawing inspiration from others can be key to maintaining your motivation. This list features 5 of the top accounts I follow on Instagram who provide me with daily inspiration to keep me motivated. Let me know if you have any others you value in the comments.

@@ -24,8 +24,6 @@ steps:
   until all water is absorbed and rice is cooked. Add small amounts of water if necessary
   until rice is soft. '
 - Stir in creme fraiche and serve.
-description: 'Don''t hinder your progress - have a fakeaway instead with this Indian
-  takeout inspired recipe. '
+description: 'Don''t hinder your progress - have a fakeaway instead with this Indian takeout inspired recipe. '
+image: '/uploads/IMG_3052.JPG'
 ---
-
-![IMG_3052.JPG](/uploads/IMG_3052.JPG)

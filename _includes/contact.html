@@ -1,0 +1,23 @@
+<footer class="contact">
+  <h1>
+    Get in Touch<br />
+    <a href="mailto:gemma@vixenfitness.co.uk" class="highlight--plum">
+      gemma@vixenfitness.co.uk
+    </a>
+  </h1>
+
+  <ul class="contact__social">
+    {% for item in site.contact.social %}
+      {% assign site = item[0] %}
+      {% assign username = item[1] %}
+
+      <li>
+        <a href="//{{ site }}.com/{{ username }}" class="contact__social__link">
+          {{ site }}
+          <img src="/img/icons/{{ site }}.svg" class="contact__social__image" />
+          <img src="/img/icons/{{ site }}-color.svg" class="contact__social__image contact__social__image--color" />
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</footer>
