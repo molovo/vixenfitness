@@ -2,10 +2,16 @@
 layout: base
 ---
 
-<h1 class="post--title">{{ page.title }}</h1>
-
-<article class="post--content">
-  <date class="post--date">{{ page.date | date: "%d %B %Y" }}</date>
-
-  {{ page.content | markdownify }}
+<article class="post">
+  <ul class="post__meta">
+    <li>
+      <span class="highlight--pink">Written on</span>
+      <date class="posts__date">{{ page.date | date: "%d %B %Y" }}</date>
+    </li>
+  </ul>
+  <div class="post__content">
+    {{ page.content | markdownify }}
+  </div>
 </article>
+
+{% include signup.html %}

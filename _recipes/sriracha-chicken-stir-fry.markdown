@@ -9,7 +9,7 @@ ingredients:
   Butternut Squash, spiralised: 100g
   Green Beans, slices: 1 handful
   Red Cabbage, shredded: 100g
-  Siracha Sauce: 'To taste '
+  Sriracha Sauce: 'To taste '
 steps:
 - Cook chicken in oven for 25 mins at 180 degrees whilst completing the following steps.
 - Add coconut oil, butternut squash, green beans and red cabbage to frying pan and stir fry for 5 mins.

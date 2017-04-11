@@ -17,7 +17,7 @@ layout: base
             </a>
           </h1>
 
-          <ul class="recipes__meta">
+          <ul class="posts__meta">
             <li>
               <span class="highlight--pink">Written on</span>
               <date class="posts__date">{{ post.date | date: "%d %B %Y" }}</date>
@@ -34,26 +34,3 @@ layout: base
 </section>
 
 {% include signup.html %}
-
-
-<h1>{{ page.title }}</h1>
-
-{{ page.content | markdownify }}
-
-<ul class="post--list">
-  {% for post in site.posts %}
-    <li class="post--list-item">
-      <article>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-
-        <date class="post--date">{{ post.date | date: "%d %B %Y" }}</date>
-
-        {{ post.excerpt }}
-      </article>
-    </li>
-  {% endfor %}
-</ul>

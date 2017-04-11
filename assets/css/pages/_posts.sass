@@ -32,57 +32,19 @@
         margin-right: 1ch
 
 .post
-  display: flex
-  flex-direction: row-reverse
   padding: #{$baseline * 2}
 
-  &__info
-    background: $color-yellow
-    color: $color-plum
-    flex: 0 0 21em
-    margin-left: #{$baseline * 2}
-    padding: $baseline
-
-    h6
-      color: $color-plum
-      font-size: .875em
-      +uc
-
-    &-item
-      &:not(.recipe__info-item--ingredients)
-        display: flex
-        justify-content: space-between
-
-      & + h6
-        margin-top: $baseline
-
-  &__ingredients
-    list-style: none
+  &__meta
+    display: flex
+    margin: 0 0 $baseline
 
     li
-      display: flex
-      justify-content: space-between
+      margin-right: $baseline
+      white-space: nowrap
+
+      span
+        margin-right: 1ch
 
   &__content
+    max-width: 36em
     padding: $baseline 0
-
-  &__steps
-    li
-      align-items: center
-      display: flex
-      margin: 0 0 $baseline
-
-      p:last-of-type
-        margin: 0
-
-      &::before
-        color: $color-pink
-        flex: 0 0 $baseline
-        font:
-          size: 1.5em
-          weight: 700
-
-    @for $i from 1 through 15
-      li:nth-child(#{$i})
-        &::before
-          content: '#{$i}'
