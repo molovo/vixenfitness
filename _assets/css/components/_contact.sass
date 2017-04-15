@@ -1,0 +1,45 @@
+.contact
+  background: $color-green
+  color: $color-white
+  padding: #{$baseline * 4} $baseline
+
+  @media (min-width: 36em)
+    border-bottom: $baseline solid $color-white
+    padding: #{$baseline * 4} #{$baseline * 2}
+
+  h2
+    @media (max-width: 36em)
+      font-size: 1.5em
+      line-height: #{(1 / 1.5) * $baseline}
+      margin-bottom: #{(1 / 1.5) * $baseline}
+
+  &__social
+    list-style: none
+
+    li
+      display: inline-block
+      margin-right: $baseline
+
+    &__link
+      background: url() center / contain no-repeat
+      display: inline-block
+      height: 2.25em
+      overflow: hidden
+      position: relative
+      text-indent: 100%
+      width: 2.25em
+
+      &:hover
+        .contact__social__image
+          opacity: 1
+
+    &__image
+      height: 2.25em
+      left: 0
+      position: absolute
+      top: 0
+      width: 2.25em
+
+      &--color
+        opacity: 0
+        transition: opacity .15s

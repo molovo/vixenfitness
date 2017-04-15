@@ -1,7 +1,6 @@
 ---
 title: Gemma Holloway Fitness
 timezone: Europe/London
-
 contact:
   email: gemma@vixenfitness.co.uk
   social:
@@ -9,12 +8,15 @@ contact:
     facebook: VixenFitnessUK
     instagram: VixenFitnessUK
     snapchat: VixenFitnessUK
+keep_files:
+  - css
+  - js
+  - img
 exclude:
-  - assets
-  - assets.old
   - gulpfile.coffee
   - package.json
   - yarn.lock
+  - node_modules
 collections:
   posts:
     title: Posts

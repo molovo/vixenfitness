@@ -1,0 +1,90 @@
+.main-nav
+  align-items: center
+  display: flex
+  justify-content: space-between
+  left: 0
+  padding: $baseline
+  position: fixed
+  top: 0
+  transition: background .25s
+  width: 100%
+  z-index: 999
+
+  @media (max-width: 36em)
+    flex-wrap: wrap
+
+  @media (min-width: 36em)
+    padding: $baseline #{$baseline * 2}
+
+  .scrolled &, .menu-open &
+    background: $color-white
+    padding: 0 $baseline
+
+    @media (min-width: 36em)
+      padding: 0 #{$baseline * 2}
+
+  a
+    color: $color-white
+    flex: 0 0 100%
+    font-size: .75em
+    order: 2
+    overflow: hidden
+    padding: 0
+    text-align: center
+    transition: color .25s, height .25s, padding .25s
+    +uc
+
+    @media (max-width: 36em)
+      height: 0
+
+      .menu-open &
+        height: #{((4 / 3) * $baseline) * 3}
+        padding: #{(4 / 3) * $baseline}
+
+    @media (min-width: 36em)
+      flex: 0 1 auto
+      padding: #{(4 / 3) * $baseline}
+
+    .page--recipes &
+      color: $color-plum
+
+    .scrolled &, .menu-open &
+      color: $color-plum
+
+    &.main-nav__logo
+      background: url('/img/vixen-vertical-no-bg.svg') center / contain no-repeat
+      flex: 1
+      height: 12em
+      margin: 0 auto
+      overflow: hidden
+      padding: #{(4 / 3) * $baseline}
+      text-indent: 100%
+      transition: none
+      white-space: nowrap
+
+      @media (max-width: 36em)
+        order: 1
+
+      .page--recipes &
+        background: url('/img/vixen-vertical-no-bg-(alt 2).svg') center / contain no-repeat
+
+      .scrolled &, .menu-open &
+        background: url('/img/vixen-horizontal-no-bg-(alt).svg') center / contain no-repeat
+        height: 4.5em
+
+    &.main-nav__menu
+      background: url('/img/icons/menu-white.svg') center / $baseline no-repeat
+      height: auto
+      overflow: hidden
+      padding: $baseline
+      position: absolute
+      right: 0
+      text-indent: 100%
+      top: 0
+      width: #{3 * $baseline}
+
+      @media (min-width: 36em)
+        display: none
+
+      .scrolled &, .menu-open &
+        background-image: url('/img/icons/menu.svg')

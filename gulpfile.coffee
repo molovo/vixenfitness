@@ -23,13 +23,13 @@ imagemin     = require 'gulp-imagemin'
 
 # Sources and entry points for compilation
 sources =
-  sass: 'assets/css/**/*.s+(a|c)ss'
-  coffee: 'assets/js/**/*.coffee'
-  images: 'assets/img/**/*'
-  views: '**/*.html'
+  sass: '_assets/css/**/*.s+(a|c)ss'
+  coffee: '_assets/js/**/*.coffee'
+  images: '_assets/img/**/*'
+  views: '_{layouts,includes,posts,recipes}/**/*.{html,md},*.{html,md}'
 entries =
-  sass: 'assets/css/main.sass'
-  coffee: 'assets/js/main.coffee'
+  sass: '_assets/css/main.sass'
+  coffee: '_assets/js/main.coffee'
 
 ###*
  * The default task. Lints and compiles sass and coffeescript
@@ -56,7 +56,7 @@ gulp.task 'lint:coffee', () ->
 ###*
  * Compilation tasks
 ###
-gulp.task 'compile', ['compile:sass', 'compile:coffee']
+gulp.task 'compile', ['compile:html', 'compile:sass', 'compile:coffee', 'compile:images']
 
 gulp.task 'compile:sass', () ->
   gulp.src entries.sass
@@ -66,7 +66,7 @@ gulp.task 'compile:sass', () ->
       cascade: false
     )
     .pipe rename('main.css')
-    .pipe gulp.dest('css/')
+    .pipe gulp.dest('_site/css/')
 
 gulp.task 'compile:coffee', () ->
   # Set up the browserify instance
@@ -84,9 +84,9 @@ gulp.task 'compile:coffee', () ->
     .pipe sourcemaps.init(loadMaps: true)
     .pipe rename('main.min.js')
     .pipe sourcemaps.write('./')
-    .pipe gulp.dest('js/')
+    .pipe gulp.dest('_site/js/')
 
-gulp.task 'images', () ->
+gulp.task 'compile:images', () ->
   gulp.src sources.images
     .pipe imagemin([
       imagemin.gifsicle interlaced: true
@@ -94,19 +94,23 @@ gulp.task 'images', () ->
       imagemin.optipng optimizationLevel: 5
       imagemin.svgo plugins: [removeViewBox: true]
     ])
-    .pipe gulp.dest('img/')
+    .pipe gulp.dest('_site/img/')
 
-gulp.task 'serve', () ->
-  browserSync.init(
-    proxy: '127.0.0.1:4000'
-  )
+gulp.task 'compile:html', () ->
+  require 'child_process'
+    .spawn 'jekyll', ['build', '--incremental'], {stdio: 'inherit'}
 
-  gulp.watch 'css/**/*'
-    .on 'change', browserSync.reload
-  gulp.watch 'js/**/*'
-    .on 'change', browserSync.reload
-  gulp.watch sources.views
-    .on 'change', browserSync.reload
-  gulp.watch sources.images, ['images']
+gulp.task 'watch', () ->
+  gulp.watch sources.images, ['compile:images']
   gulp.watch sources.coffee, ['compile:coffee']
   gulp.watch sources.sass, ['compile:sass']
+  gulp.watch sources.views, ['compile:html']
+
+gulp.task 'serve', ['compile', 'watch'], () ->
+  browserSync.init(
+    server:
+      baseDir: './_site'
+  )
+
+  gulp.watch '_site/**/*'
+    .on 'change', browserSync.reload
