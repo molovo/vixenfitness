@@ -26,7 +26,7 @@ sources =
   sass: '_assets/css/**/*.s+(a|c)ss'
   coffee: '_assets/js/**/*.coffee'
   images: '_assets/img/**/*'
-  views: '_{layouts,includes,posts,recipes}/**/*.{html,md},*.{html,md}'
+  views: '{_layouts/**,_includes/**,_posts/**,_recipes/**,.}/*.{html,md}'
 entries =
   sass: '_assets/css/main.sass'
   coffee: '_assets/js/main.coffee'

@@ -2,8 +2,10 @@
 layout: base
 ---
 
-<article class="page--content">
-  <h1 class="page--title">{{ page.title }}</h1>
+<section class="page">
+  <article class="page__content">
+    {{ page.content | markdownify }}
+  </article>
+</section>
 
-  {{ page.content | markdownify }}
-</article>
+{% include signup.html %}

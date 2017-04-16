@@ -1,5 +1,4 @@
-.about,
-.sessions
+.homepage-section
   padding: #{$baseline * 4} $baseline
 
   @media (min-width: 36em)
@@ -20,13 +19,13 @@
     font-size: 1.125em
     max-width: 36em
 
-.about
-  background: $color-yellow
-
-.sessions
-  background: $color-pink
-  color: $color-white
-
-  .button
+  &--about
     background: $color-yellow
-    color: $color-plum
+
+  &--sessions
+    background: $color-pink
+    color: $color-white
+
+    .button
+      background: $color-yellow
+      color: $color-plum

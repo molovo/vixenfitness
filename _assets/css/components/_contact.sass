@@ -2,6 +2,7 @@
   background: $color-green
   color: $color-white
   padding: #{$baseline * 4} $baseline
+  position: relative
 
   @media (min-width: 36em)
     border-bottom: $baseline solid $color-white
@@ -43,3 +44,20 @@
       &--color
         opacity: 0
         transition: opacity .15s
+
+  &__back-to-top
+    background: $color-white url('/img/icons/chevron-up-green.svg') center no-repeat
+    background-size: 1em
+    bottom: $baseline
+    color: $color-green
+    height: #{1.5 * $baseline}
+    overflow: hidden
+    position: absolute
+    right: $baseline
+    text-indent: 100%
+    width: #{1.5 * $baseline}
+    white-space: nowrap
+
+    @media (min-width: 36em)
+      bottom: #{2 * $baseline}
+      right: #{2 * $baseline}

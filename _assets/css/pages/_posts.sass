@@ -2,7 +2,7 @@
   padding: #{$baseline * 2} $baseline
 
   @media (min-width: 36em)
-    padding: #{$baseline * 2} #{$baseline * 2}
+    padding: #{$baseline * 2}
 
   &__header
     max-width: 36em
@@ -14,14 +14,24 @@
     align-items: flex-start
     display: flex
     margin: #{$baseline * 2} 0
+    max-width: 100%
+
+    @media (max-width: 36em)
+      flex-wrap: wrap
 
   &__content
-    flex: 0 1 100%
+    flex: 0 0 100%
+
+    @media (min-width: 36em)
+      flex: 0 1 100%
 
   &__image
-    flex: 0 0 15em
-    margin-left: $baseline
-    width: 15em
+    flex: 0 0 100%
+
+    @media (min-width: 36em)
+      margin-left: $baseline
+      flex: 0 0 15em
+      width: 15em
 
   &__meta
     display: flex
@@ -35,7 +45,10 @@
         margin-right: 1ch
 
 .post
-  padding: #{$baseline * 2}
+  padding: #{$baseline * 2} $baseline
+
+  @media (min-width: 36em)
+    padding: #{$baseline * 2}
 
   &__meta
     display: flex

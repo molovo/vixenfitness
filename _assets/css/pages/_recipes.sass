@@ -2,7 +2,7 @@
   padding: #{$baseline * 2} $baseline
 
   @media (min-width: 36em)
-    padding: #{$baseline * 2} #{$baseline * 2}
+    padding: #{$baseline * 2}
 
   &__header
     max-width: 36em
@@ -13,8 +13,8 @@
   &__item
     align-items: flex-start
     display: flex
-    max-width: 100%
     margin: #{$baseline * 2} 0
+    max-width: 100%
 
     @media (max-width: 36em)
       flex-wrap: wrap
@@ -45,16 +45,27 @@
         margin-right: 1ch
 
 .recipe
+  align-items: flex-start
   display: flex
   flex-direction: row-reverse
-  padding: #{$baseline * 2}
+  padding: #{$baseline * 2} $baseline
+
+  @media (max-width: 36em)
+    flex-wrap: wrap
+
+  @media (min-width: 36em)
+    padding: #{$baseline * 2}
 
   &__info
     background: $color-yellow
     color: $color-plum
-    flex: 0 0 21em
-    margin-left: #{$baseline * 2}
+    flex: 0 0 100%
+    height: auto
     padding: $baseline
+
+    @media (min-width: 36em)
+      flex: 0 0 21em
+      margin-left: #{$baseline * 2}
 
     h6
       color: $color-plum
@@ -71,6 +82,7 @@
 
   &__ingredients
     list-style: none
+    margin: 0
 
     li
       display: flex
