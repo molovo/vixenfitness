@@ -5,7 +5,7 @@ description: Everyone talks about the positives of starting a fitness journey, b
   it's not all sunshine and rainbows.
 ---
 
-[IMG_5405.JPG](/uploads/IMG_5405.JPG)
+![IMG_5405.JPG](/uploads/IMG_5405.JPG)
 As my fitness journey progresses into the next stage and I become a personal trainer, I've been reflecting on my journey so far. Whilst the overall outcome of the process has been a positive one, I have encountered some negative experiences along the way - experiences that many people face but not many people talk about. So I'm going to! 
 
 ## The Humiliation 
