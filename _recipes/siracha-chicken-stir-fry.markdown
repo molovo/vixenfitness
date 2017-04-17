@@ -21,6 +21,7 @@ steps:
   stir fry to serve.
 description: Quick and simple, this stir fry will add a little bit of heat to any
   night of the week.
+image: "/uploads/IMG_4953.JPG"
 ---
 
 ![IMG_4953.JPG](/uploads/IMG_4953.JPG)
