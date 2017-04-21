@@ -5,6 +5,7 @@ description: All the basics you need to plan your next workout; from reps and se
   to structure and type of exercise.
 ---
 
+![IMG_5697.JPG](/uploads/IMG_5697.JPG)
 Lately, I've had a lot of people asking for advice on how to put together a workout. Unfortunately, with so much information available on social media it's difficult to differentiate between the credible recommendations and the fad fixes. So, below I'm going to provide you with a brief overview of the structure I use when putting together a workout.
 
 I look at a workout as three different aspects; resistance, core and cardio. Recommended guidelines suggest 3-5 cardio sessions per week, 3 resistance sessions per week (per muscle area on non-consecutive days) and 1 core session per week.  For the purpose of this post I'll be explaining how to write a workout programme which incorporates all three in one session.
