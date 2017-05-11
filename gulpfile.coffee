@@ -5,6 +5,7 @@ buffer       = require 'vinyl-buffer'
 gutil        = require 'gulp-util'
 rename       = require 'gulp-rename'
 browserSync  = require 'browser-sync'
+spawn        = require('child_process').spawn
 
 # Dependencies for compiling coffeescript
 uglify       = require 'gulp-uglify'
@@ -17,19 +18,20 @@ coffeelint   = require 'gulp-coffeelint'
 sassLint     = require 'gulp-sass-lint'
 sass         = require 'gulp-sass'
 autoprefixer = require 'gulp-autoprefixer'
+critical     = require('critical').stream
 
 # Dependencies for compressing images
 imagemin     = require 'gulp-imagemin'
 
 # Sources and entry points for compilation
 sources =
-  sass: '_assets/css/**/*.s+(a|c)ss'
-  coffee: '_assets/js/**/*.coffee'
+  sass: '_assets/sass/**/*.s+(a|c)ss'
+  coffee: '_assets/coffee/**/*.coffee'
   images: '_assets/img/**/*'
-  views: '{_layouts/**,_includes/**,_posts/**,_recipes/**,.}/*.{html,md}'
+  views: ['**/*.{html,md}', '!_site/**/*', '_data/**/*.yml']
 entries =
-  sass: '_assets/css/main.sass'
-  coffee: '_assets/js/main.coffee'
+  sass: '_assets/sass/main.sass'
+  coffee: '_assets/coffee/main.coffee'
 
 ###*
  * The default task. Lints and compiles sass and coffeescript
@@ -82,9 +84,19 @@ gulp.task 'compile:coffee', () ->
     .pipe source('main.js')
     .pipe buffer()
     .pipe sourcemaps.init(loadMaps: true)
+    .pipe uglify()
     .pipe rename('main.min.js')
     .pipe sourcemaps.write('./')
     .pipe gulp.dest('_site/js/')
+
+gulp.task 'compile:critical', () ->
+  gulp.src '_site/**/*.html'
+    .pipe critical(
+      base: '_site/'
+      inline: true
+    )
+    .on 'error', (err) -> gutil.log gutil.colors.red(err.message)
+    .pipe gulp.dest('_site')
 
 gulp.task 'compile:images', () ->
   gulp.src sources.images
@@ -97,8 +109,19 @@ gulp.task 'compile:images', () ->
     .pipe gulp.dest('_site/img/')
 
 gulp.task 'compile:html', () ->
-  require 'child_process'
-    .spawn 'jekyll', ['build', '--incremental'], {stdio: 'inherit'}
+  args = [
+    'exec'
+    'jekyll'
+    'build'
+    '--incremental'
+    '--config'
+    '_config.yml,_config.dev.yml'
+  ]
+
+  if gutil.env.env is 'production'
+    args = ['exec', 'jekyll', 'build']
+
+  spawn 'bundle', args, stdio: 'inherit'
 
 gulp.task 'watch', () ->
   gulp.watch sources.images, ['compile:images']
