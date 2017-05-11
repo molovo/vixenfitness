@@ -1,8 +1,9 @@
 ---
 title: The Negatives of a Fitness Journey
 date: 2017-04-17 15:21:00 +01:00
-description: Everyone talks about the positives of starting a fitness journey, but it's not all sunshine and rainbows.
-image: '/uploads/IMG_5405.JPG'
+description: Everyone talks about the positives of starting a fitness journey, but
+  it's not all sunshine and rainbows.
+image: "/uploads/IMG_5405.JPG"
 ---
 
 As my fitness journey progresses into the next stage and I become a personal trainer, I've been reflecting on my journey so far. Whilst the overall outcome of the process has been a positive one, I have encountered some negative experiences along the way - experiences that many people face but not many people talk about. So I'm going to! 

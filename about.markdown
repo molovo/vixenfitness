@@ -1,7 +1,7 @@
 ---
 title: About Me
-slug: about
 date: 2016-10-19 19:57:00 +01:00
+slug: about
 layout: page
 ---
 

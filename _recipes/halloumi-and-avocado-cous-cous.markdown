@@ -1,6 +1,6 @@
 ---
 title: Halloumi and Avocado Cous Cous
-date: 2016-10-19 19:12:00 Z
+date: 2016-10-19 20:12:00 +01:00
 serves: 4
 preparation_time: 15 mins
 ingredients:
@@ -24,5 +24,6 @@ steps:
 - Stir the cucumber into the Cous Cous and serve into 4 bowls. Top with slices of
   avocado, halloumi and a sprinkle of chilli flakes.
 description: This dish is great to be eaten fresh or packed for on the go.
-image: '/uploads/IMG_3050.JPG'
+image: "/uploads/IMG_3050.JPG"
 ---
+

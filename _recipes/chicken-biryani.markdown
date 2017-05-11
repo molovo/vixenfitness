@@ -1,6 +1,6 @@
 ---
 title: Chicken Biryani
-date: 2016-10-19 19:28:00 Z
+date: 2016-10-19 20:28:00 +01:00
 serves: 2
 preparation_time: 20 mins
 ingredients:
@@ -24,6 +24,8 @@ steps:
   until all water is absorbed and rice is cooked. Add small amounts of water if necessary
   until rice is soft. '
 - Stir in creme fraiche and serve.
-description: 'Don''t hinder your progress - have a fakeaway instead with this Indian takeout inspired recipe. '
-image: '/uploads/IMG_3052.JPG'
+description: 'Don''t hinder your progress - have a fakeaway instead with this Indian
+  takeout inspired recipe. '
+image: "/uploads/IMG_3052.JPG"
 ---
+

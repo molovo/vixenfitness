@@ -1,8 +1,9 @@
 ---
 title: How to Plan a Workout
 date: 2017-04-21 12:14:00 +01:00
-description: All the basics you need to plan your next workout; from reps and sets, to structure and type of exercise.
-image: '/uploads/IMG_5697.JPG'
+description: All the basics you need to plan your next workout; from reps and sets,
+  to structure and type of exercise.
+image: "/uploads/IMG_5697.JPG"
 ---
 
 Lately, I've had a lot of people asking for advice on how to put together a workout. Unfortunately, with so much information available on social media it's difficult to differentiate between the credible recommendations and the fad fixes. So, below I'm going to provide you with a brief overview of the structure I use when putting together a workout.

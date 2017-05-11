@@ -1,6 +1,6 @@
 ---
 title: Creamy Lemon Pasta
-date: 2016-10-19 19:23:00 Z
+date: 2016-10-19 20:23:00 +01:00
 serves: 2
 preparation_time: 15 mins
 ingredients:
@@ -18,5 +18,6 @@ steps:
 - Add creme fraiche, lemon, spinach and spaghetti to the frying pan and stir until
   thoroughly mixed and spinach has wilted. Season with pepper and serve.
 desciption: Perfect for a summers evening, this pasta recipe is simple and zesty.
-image: '/uploads/IMG_3051.JPG'
+image: "/uploads/IMG_3051.JPG"
 ---
+

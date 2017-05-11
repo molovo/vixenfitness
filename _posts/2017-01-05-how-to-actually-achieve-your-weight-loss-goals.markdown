@@ -1,7 +1,8 @@
 ---
 title: How to actually achieve your weight loss goals
 date: 2017-01-05 14:31:00 +00:00
-description: 'Trying to lose weight but not really getting anywhere? Here''s why you need to change the way you think! '
+description: 'Trying to lose weight but not really getting anywhere? Here''s why you
+  need to change the way you think! '
 ---
 
 As the first week of 2017 draws to a close, many have been focused on a resolution to lose weight in the new year. But sticking to this resolution can be hard and here's why..

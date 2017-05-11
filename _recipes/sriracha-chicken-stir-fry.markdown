@@ -11,10 +11,16 @@ ingredients:
   Red Cabbage, shredded: 100g
   Sriracha Sauce: 'To taste '
 steps:
-- Cook chicken in oven for 25 mins at 180 degrees whilst completing the following steps.
-- Add coconut oil, butternut squash, green beans and red cabbage to frying pan and stir fry for 5 mins.
-- Drizzle stir fry with sriracha until desired taste is achieved. Continue to stir fry until all veg is cooked al dente.
-- Remove chicken from oven, rest for 5 mins before slicing and layering on top of stir fry to serve.
-description: Quick and simple, this stir fry will add a little bit of heat to any night of the week.
-image: '/uploads/IMG_4953.JPG'
+- Cook chicken in oven for 25 mins at 180 degrees whilst completing the following
+  steps.
+- Add coconut oil, butternut squash, green beans and red cabbage to frying pan and
+  stir fry for 5 mins.
+- Drizzle stir fry with sriracha until desired taste is achieved. Continue to stir
+  fry until all veg is cooked al dente.
+- Remove chicken from oven, rest for 5 mins before slicing and layering on top of
+  stir fry to serve.
+description: Quick and simple, this stir fry will add a little bit of heat to any
+  night of the week.
+image: "/uploads/IMG_4953.JPG"
 ---
+

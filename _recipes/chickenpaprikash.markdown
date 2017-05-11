@@ -20,6 +20,8 @@ steps:
 - Add tomatoes, paprika and water. Cover and simmer until chicken is cooked.
 - 'Stir in sour cream and flour to thicken. '
 - Serve with brown rice.
-description: Try my take on this Hungarian favourite. Tender chickens thighs in a delicious paprika flavoured sauce.
-image: '/uploads/IMG_4372.JPG'
+description: Try my take on this Hungarian favourite. Tender chickens thighs in a
+  delicious paprika flavoured sauce.
+image: "/uploads/IMG_4372.JPG"
 ---
+

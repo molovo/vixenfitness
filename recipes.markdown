@@ -1,7 +1,7 @@
 ---
 title: Recipes
+date: 2016-10-19 20:00:00 +01:00
 slug: recipes
-date: 2016-10-19 19:00:00 Z
 layout: recipe-list
 intro: Recipes to help you<br /><span class="highlight--pink">love your tummy</span>.
 ---

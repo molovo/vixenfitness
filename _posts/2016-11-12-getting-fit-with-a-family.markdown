@@ -1,7 +1,8 @@
 ---
 title: Getting Fit With a Family
 date: 2016-11-12 19:39:00 +00:00
-description: Find it hard to fit in a workout around your family schedule? Find out how I manage to balance family life and a fitness regime.
+description: Find it hard to fit in a workout around your family schedule? Find out
+  how I manage to balance family life and a fitness regime.
 ---
 
 I often get asked how I make time to exercise when I have a family to look after. Whilst I attend the gym two to three times a week, I work out more than that. Rather than trying to make child-free time, I simply involve her in my workouts. That way I get to spend quality time with the little one whilst also getting the workout I require and here's how;

@@ -1,22 +1,6 @@
 ---
 title: Gemma Holloway Fitness
 timezone: Europe/London
-contact:
-  email: gemma@vixenfitness.co.uk
-  social:
-    twitter: VixenFitnessUK
-    facebook: VixenFitnessUK
-    instagram: VixenFitnessUK
-    snapchat: VixenFitnessUK
-keep_files:
-  - css
-  - js
-  - img
-exclude:
-  - gulpfile.coffee
-  - package.json
-  - yarn.lock
-  - node_modules
 collections:
   posts:
     title: Posts
@@ -43,12 +27,28 @@ defaults:
     permalink: "/recipes/:title/"
     serves: 2
     preparation_time: 15mins
-    ingredients:
+    ingredients: 
     steps:
-    -
+    - 
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+contact:
+  email: gemma@vixenfitness.co.uk
+  social:
+    twitter: VixenFitnessUK
+    facebook: VixenFitnessUK
+    instagram: VixenFitnessUK
+    snapchat: VixenFitnessUK
+keep_files:
+- css
+- js
+- img
+exclude:
+- gulpfile.coffee
+- package.json
+- yarn.lock
+- node_modules
 permalink: pretty

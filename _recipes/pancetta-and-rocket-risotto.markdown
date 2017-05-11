@@ -1,6 +1,6 @@
 ---
 title: Pancetta and Rocket Risotto
-date: 2017-01-03 19:27:00 Z
+date: 2017-01-03 19:27:00 +00:00
 serves: 2
 preparation_time: 30 mins
 ingredients:
@@ -23,6 +23,8 @@ steps:
 - 'Once all stock is absorbed, rice should be al dente. Add creme fraiche and stir
   through on low heat. '
 - Serve and garnish with rocket.
-description: This Italian inspired recipe offers creamy indulgence with none of the guilt.
-image: '/uploads/IMG_4168.JPG'
+description: This Italian inspired recipe offers creamy indulgence with none of the
+  guilt.
+image: "/uploads/IMG_4168.JPG"
 ---
+

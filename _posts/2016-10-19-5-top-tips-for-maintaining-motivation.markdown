@@ -1,7 +1,8 @@
 ---
 title: 5 Top Tips for Maintaining Motivation
-date: 2016-10-19 18:52:00 Z
-description: Even the best athletes suffer with motivation from time to time. Don't fall victim to a lack of motivation by following these 5 simple tips.
+date: 2016-10-19 19:52:00 +01:00
+description: Even the best athletes suffer with motivation from time to time. Don't
+  fall victim to a lack of motivation by following these 5 simple tips.
 ---
 
 Lots of people use a lack of motivation as their main excuse for not working out regularly. If this is you - then follow these rules! I use this simple set of guidelines to ensure my motivation doesn't waver. If you've got any motivation tips of your own, feel free to add them in the comments.

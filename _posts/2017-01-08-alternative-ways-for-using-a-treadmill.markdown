@@ -1,7 +1,8 @@
 ---
 title: Alternative ways for using a treadmill
 date: 2017-01-08 06:45:00 +00:00
-description: Do you hate running on a treadmill? Check out these 4 alternative uses for this piece of equipment.
+description: Do you hate running on a treadmill? Check out these 4 alternative uses
+  for this piece of equipment.
 ---
 
 A treadmill is a great piece of equipment for getting in a good cardio workout but lots of people hate running on a treadmill because of various different reasons from impact on the joint to the sheer monotony of the task. Just because you don't enjoy running on the treadmill though,  doesn't mean you have to avoid it all together. Check out these 4 alternatives to getting the most out of this piece of equipment.
