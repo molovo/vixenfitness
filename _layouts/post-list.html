@@ -27,7 +27,11 @@ layout: base
           {{ post.description | markdownify }}
         </article>
 
-        <img src="{{ post.image }}" class="posts__image">
+        <div class="posts__image">
+          {% if post.image %}
+            <img src="{{ post.image }}" class="posts__image">
+          {% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>

@@ -34,6 +34,18 @@
     transition: color .25s, height .25s, padding .25s
     +uc
 
+    &:hover
+      text-decoration: none
+
+    @media (min-width: 36em)
+      &:hover::after
+        background: $color-yellow
+        content: ''
+        display: inline-block
+        height: .5em
+        margin: 0 0 -.5em
+        width: 100%
+
     @media (max-width: 36em)
       height: 0
 
@@ -47,6 +59,10 @@
 
     .page--recipes &
       color: $color-plum
+
+      @media (min-width: 36em)
+        &:hover::after
+          background: $color-pink
 
     .scrolled &, .menu-open &
       color: $color-plum

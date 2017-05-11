@@ -1,0 +1,37 @@
+.book__intro
+  padding: #{$baseline * 2} $baseline
+
+  @media (min-width: 36em)
+    padding: #{$baseline * 2} #{$baseline * 2}
+
+  p
+    margin: 0 auto
+    max-width: 36em
+    text-align: center
+
+.sessions
+  background: $color-yellow
+  padding: #{$baseline * 4} $baseline
+
+  @media (min-width: 36em)
+    padding: #{$baseline * 4} #{$baseline * 2}
+
+  &__price-list
+    list-style: none
+
+    li
+      display: flex
+      margin: 0 0 #{$baseline * 2}
+
+      @media (max-width: 36em)
+        flex-wrap: wrap
+
+  &--item-content,
+  &--item-price
+    flex: 0 0 100%
+
+  @media (min-width: 36em)
+    &__item-price
+      flex: 0 0 15em
+      margin-left: #{2 * $baseline}
+      text-align: right

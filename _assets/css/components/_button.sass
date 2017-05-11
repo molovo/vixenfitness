@@ -13,5 +13,38 @@
     weight: 700
   line-height: $baseline
   padding: #{$baseline * .5} $baseline
+  position: relative
   text-decoration: none
   +uc
+
+  &:hover
+    text-decoration: none
+
+  &--buy
+    background: none
+    display: inline-flex
+    padding: 0
+
+  &__text
+    background: $color-pink
+    display: inline-block
+    line-height: $baseline
+    padding: #{$baseline * .5} $baseline
+
+    &:first-child
+      background: darken($color-pink, 10%)
+
+  &__badge
+    background: $color-green
+    color: $color-white
+    display: inline-block
+    font-size: .75em
+    font-weight: 400
+    left: 0
+    letter-spacing: 0
+    line-height: $baseline
+    padding: .25em .75em
+    position: absolute
+    text-transform: none
+    top: 0
+    transform: translate(-50%, -50%)
