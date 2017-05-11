@@ -27,9 +27,9 @@ defaults:
     permalink: "/recipes/:title/"
     serves: 2
     preparation_time: 15mins
-    ingredients: 
+    ingredients:
     steps:
-    - 
+    -
 - scope:
     path: ''
     type: pages
@@ -41,7 +41,7 @@ contact:
     twitter: VixenFitnessUK
     facebook: VixenFitnessUK
     instagram: VixenFitnessUK
-    snapchat: VixenFitnessUK
+    snapchat: gemgemwings
 keep_files:
 - css
 - js
