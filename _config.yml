@@ -9,9 +9,6 @@ collections:
     title: Recipes
     output: true
     permalink: "/recipes/:path"
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
@@ -27,9 +24,9 @@ defaults:
     permalink: "/recipes/:title/"
     serves: 2
     preparation_time: 15mins
-    ingredients: 
+    ingredients:
     steps:
-    - 
+    -
 - scope:
     path: ''
     type: pages

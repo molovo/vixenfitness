@@ -28,6 +28,7 @@ sources =
   sass: '_assets/sass/**/*.s+(a|c)ss'
   coffee: '_assets/coffee/**/*.coffee'
   images: '_assets/img/**/*'
+  uploads: '_uploads/**/*'
   views: ['**/*.{html,md}', '!_site/**/*', '_data/**/*.yml']
 entries =
   sass: '_assets/sass/main.sass'
@@ -58,7 +59,7 @@ gulp.task 'lint:coffee', () ->
 ###*
  * Compilation tasks
 ###
-gulp.task 'compile', ['compile:html', 'compile:sass', 'compile:coffee', 'compile:images']
+gulp.task 'compile', ['compile:html', 'compile:sass', 'compile:coffee', 'compile:images', 'compile:uploads']
 
 gulp.task 'compile:sass', () ->
   gulp.src entries.sass
@@ -107,6 +108,16 @@ gulp.task 'compile:images', () ->
       imagemin.svgo plugins: [removeViewBox: true]
     ])
     .pipe gulp.dest('_site/img/')
+
+gulp.task 'compile:uploads', () ->
+  gulp.src sources.uploads
+    .pipe imagemin([
+      imagemin.gifsicle interlaced: true
+      imagemin.jpegtran progressive: true
+      imagemin.optipng optimizationLevel: 5
+      imagemin.svgo plugins: [removeViewBox: true]
+    ])
+    .pipe gulp.dest('_site/uploads/')
 
 gulp.task 'compile:html', () ->
   args = [
