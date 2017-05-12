@@ -1,20 +1,6 @@
 ---
 title: Vixen Fitness
-url: https://www.vixenfitness.co.uk
-logo: /img/vixen-icon-plum-bg.png
-author: Gemma Holloway
 timezone: Europe/London
-
-# Contact Info
-contact:
-  email: gemma@vixenfitness.co.uk
-  social:
-    twitter: VixenFitnessUK
-    facebook: VixenFitnessUK
-    instagram: VixenFitnessUK
-    snapchat: gemgemwings
-
-# Collections
 collections:
   posts:
     title: Posts
@@ -49,8 +35,16 @@ defaults:
     type: pages
   values:
     layout: page
-
-# Build settings
+url: https://www.vixenfitness.co.uk
+logo: "/img/vixen-icon-plum-bg.png"
+author: Gemma Holloway
+contact:
+  email: gemma@vixenfitness.co.uk
+  social:
+    twitter: VixenFitnessUK
+    facebook: VixenFitnessUK
+    instagram: VixenFitnessUK
+    snapchat: gemgemwings
 keep_files:
 - css
 - js
