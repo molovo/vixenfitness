@@ -135,6 +135,7 @@ gulp.task 'compile:html', () ->
   spawn 'bundle', args, stdio: 'inherit'
 
 gulp.task 'watch', () ->
+  gulp.watch sources.uploads, ['compile:uploads']
   gulp.watch sources.images, ['compile:images']
   gulp.watch sources.coffee, ['compile:coffee']
   gulp.watch sources.sass, ['compile:sass']
