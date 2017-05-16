@@ -25,5 +25,6 @@ steps:
   avocado, halloumi and a sprinkle of chilli flakes.
 description: This dish is great to be eaten fresh or packed for on the go.
 image: "/uploads/IMG_3050.JPG"
+categories: vegetarian
 ---
 

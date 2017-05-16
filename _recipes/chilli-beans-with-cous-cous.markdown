@@ -22,5 +22,6 @@ steps:
 - 'Serve with Cous Cous '
 description: Delicious low fat vegetarian bean dish.
 image: "/uploads/IMG_4298.JPG"
+categories: vegetarian
 ---
 

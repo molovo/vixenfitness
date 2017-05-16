@@ -27,9 +27,10 @@ defaults:
     permalink: "/recipes/:title/"
     serves: 2
     preparation_time: 15mins
-    ingredients: 
+    cooking_time: 15mins
+    ingredients:
     steps:
-    - 
+    -
 - scope:
     path: ''
     type: pages

@@ -1,0 +1,43 @@
+diabetic:
+  name: Diabetic
+  schema: http://schema.org/DiabeticDiet
+
+gluten-free:
+  name: Gluten Free
+  schema: http://schema.org/GlutenFreeDiet
+
+halal:
+  name: Halal
+  schema: http://schema.org/HalalDiet
+
+hindu:
+  name: Hindu
+  schema: http://schema.org/HinduDiet
+
+kosher:
+  name: Kosher
+  schema: http://schema.org/KosherDiet
+
+low-calorie:
+  name: Low Calorie
+  schema: http://schema.org/LowCalorieDiet
+
+low-fat:
+  name: Low Fat
+  schema: http://schema.org/LowFatDiet
+
+low-lactose:
+  name: Low Lactose
+  schema: http://schema.org/LowLactoseDiet
+
+low-salt:
+  name: Low Salt
+  schema: http://schema.org/LowSaltDiet
+
+vegan:
+  name: Vegan
+  schema: http://schema.org/VeganDiet
+
+vegetarian:
+  name: Vegetarian
+  schema: http://schema.org/VegetarianDiet

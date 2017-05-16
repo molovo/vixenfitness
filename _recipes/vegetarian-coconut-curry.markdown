@@ -22,5 +22,6 @@ steps:
 description: Enjoy a guilt free curry with my recipe for vegetarian coconut curry.
   Creamy, sweet and tasty.
 image: "/uploads/IMG_4775.JPG"
+categories: vegetarian
 ---
 

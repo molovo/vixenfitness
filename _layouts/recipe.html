@@ -2,25 +2,55 @@
 layout: base
 ---
 
-<article class="recipe">
+<article class="recipe" itemscope itemtype="http://schema.org/Recipe" aria-labelledby="page-title">
+  <meta itemprop="name" content="{{ page.title }}" />
+  <meta itemprop="datePublished" content="{{ page.date | date_to_xml_schema }}" />
+
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="{{ site.author }}" />
+    <meta itemprop="url" content="{{ site.url }}" />
+  </div>
+
+  {% if page.image %}
+    <link itemprop="image" href="{{ page.image }}" />
+  {% endif %}
+
   <aside class="recipe__info">
     <h6>Recipe Info</h6>
 
-    <div class="recipe__info-item">
+    <div class="recipe__info-item" itemprop="recipeYield">
       Serves
       <span class="highlight--lilac">{{ page.serves }}</span>
     </div>
 
-    <div class="recipe__info-item">
+    <div class="recipe__info-item" itemprop="prepTime">
       Preparation Time
       <span class="highlight--lilac">{{ page.preparation_time }}</span>
     </div>
+
+    <!-- <div class="recipe__info-item" itemprop="cookTime">
+      Cooking Time
+      <span class="highlight--lilac">{{ page.cooking_time }}</span>
+    </div> -->
+
+    <ul class="recipe__tags">
+      {% for category in page.categories %}
+        {% if site.data.diets[category] %}
+          {% assign diet = site.data.diets[category] %}
+          <li class="button recipe__tag">
+            <link itemprop="suitableForDiet"
+                  href="{{ diet.schema }}" />
+            {{ diet.name }}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
     <h6>Ingredients</h6>
 
     <ul class="recipe__ingredients">
       {% for ingredient in page.ingredients %}
-        <li>
+        <li itemprop="recipeIngredient">
           <span>
             {{ ingredient[0] }}
           </span>
@@ -33,9 +63,11 @@ layout: base
   </aside>
 
   <div class="recipe__content">
-    {{ page.content | markdownify }}
+    <div itemprop="description">
+      {{ page.content | markdownify }}
+    </div>
 
-    <ol class="recipe__steps">
+    <ol class="recipe__steps" itemprop="recipeInstructions">
       {% for step in page.steps %}
         <li>
           <p>{{ step }}</p>
