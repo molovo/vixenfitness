@@ -1,6 +1,8 @@
 ---
 title: Vegetarian Coconut Curry
 date: 2017-03-03 18:15:00 +00:00
+categories:
+- vegetarian
 serves: 4
 preparation_time: 30 mins
 ingredients:
@@ -22,6 +24,5 @@ steps:
 description: Enjoy a guilt free curry with my recipe for vegetarian coconut curry.
   Creamy, sweet and tasty.
 image: "/uploads/IMG_4775.JPG"
-categories: vegetarian
 ---
 

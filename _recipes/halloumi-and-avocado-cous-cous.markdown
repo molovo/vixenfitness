@@ -1,6 +1,8 @@
 ---
 title: Halloumi and Avocado Cous Cous
 date: 2016-10-19 20:12:00 +01:00
+categories:
+- vegetarian
 serves: 4
 preparation_time: 15 mins
 ingredients:
@@ -25,6 +27,5 @@ steps:
   avocado, halloumi and a sprinkle of chilli flakes.
 description: This dish is great to be eaten fresh or packed for on the go.
 image: "/uploads/IMG_3050.JPG"
-categories: vegetarian
 ---
 

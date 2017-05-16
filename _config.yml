@@ -28,9 +28,9 @@ defaults:
     serves: 2
     preparation_time: 15mins
     cooking_time: 15mins
-    ingredients:
+    ingredients: 
     steps:
-    -
+    - 
 - scope:
     path: ''
     type: pages

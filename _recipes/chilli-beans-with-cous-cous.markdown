@@ -1,6 +1,8 @@
 ---
 title: Chilli Beans with Cous Cous
 date: 2017-01-23 20:10:00 +00:00
+categories:
+- vegetarian
 serves: 6
 preparation_time: 10 mins
 ingredients:
@@ -22,6 +24,5 @@ steps:
 - 'Serve with Cous Cous '
 description: Delicious low fat vegetarian bean dish.
 image: "/uploads/IMG_4298.JPG"
-categories: vegetarian
 ---
 
