@@ -34,13 +34,14 @@ layout: base
     </div> -->
 
     <ul class="recipe__tags">
-      {% for category in page.categories %}
-        {% if site.data.diets[category] %}
-          {% assign diet = site.data.diets[category] %}
+      {% for diet-id in page.diets %}
+        {% assign diet = site.diets | where: "id", diet-id | first %}
+
+        {% if diet %}
           <li class="button recipe__tag">
             <link itemprop="suitableForDiet"
                   href="{{ diet.schema }}" />
-            {{ diet.name }}
+            {{ diet.title }}
           </li>
         {% endif %}
       {% endfor %}

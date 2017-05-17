@@ -2,6 +2,9 @@
 title: Vixen Fitness
 timezone: Europe/London
 collections:
+  diets:
+    title: Diets
+    output: false
   posts:
     title: Posts
     output: true
@@ -19,6 +22,8 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
+    image:
+    description:
 - scope:
     path: ''
     type: recipes
@@ -28,14 +33,19 @@ defaults:
     serves: 2
     preparation_time: 15mins
     cooking_time: 15mins
-    ingredients: 
+    ingredients:
     steps:
-    - 
+      -
+    image:
+    description:
+    diets:
+      -
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+    description:
 url: https://www.vixenfitness.co.uk
 logo: "/img/vixen-icon-plum-bg.png"
 author: Gemma Holloway
