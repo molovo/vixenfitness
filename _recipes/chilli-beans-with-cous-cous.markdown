@@ -22,9 +22,9 @@ steps:
 - Add tomatoes and dried herbs and simmer for 15 mins.
 - Add cooked French beans, canned beans and chick peas and simmer for 10 mins.
 - 'Serve with Cous Cous '
-description: Delicious low fat vegetarian bean dish.
 image: "/uploads/IMG_4298.JPG"
+description: Delicious low fat vegetarian bean dish.
 diets:
-- "/diets/vegetarian"
+- Vegetarian
 ---
 
