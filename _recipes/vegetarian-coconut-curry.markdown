@@ -25,6 +25,6 @@ description: Enjoy a guilt free curry with my recipe for vegetarian coconut curr
   Creamy, sweet and tasty.
 image: "/uploads/IMG_4775.JPG"
 diets:
-- /diets/vegetarian
+- "/diets/vegetarian"
 ---
 
