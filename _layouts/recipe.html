@@ -34,8 +34,8 @@ layout: base
     </div> -->
 
     <ul class="recipe__tags">
-      {% for diet-id in page.diets %}
-        {% assign diet = site.diets | where: "id", diet-id | first %}
+      {% for diet-title in page.diets %}
+        {% assign diet = site.diets | where: "title", diet-title | first %}
 
         {% if diet %}
           <li class="button recipe__tag">
