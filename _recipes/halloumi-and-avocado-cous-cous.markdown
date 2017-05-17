@@ -1,8 +1,6 @@
 ---
 title: Halloumi and Avocado Cous Cous
 date: 2016-10-19 20:12:00 +01:00
-categories:
-- vegetarian
 serves: 4
 preparation_time: 15 mins
 ingredients:
