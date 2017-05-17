@@ -1,8 +1,6 @@
 ---
 title: Chilli Beans with Cous Cous
 date: 2017-01-23 20:10:00 +00:00
-categories:
-- vegetarian
 serves: 6
 preparation_time: 10 mins
 ingredients:
