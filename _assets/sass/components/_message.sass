@@ -1,0 +1,35 @@
+.message
+  align-items: center
+  animation: fadeIn .25s forwards
+  background: $color-plum
+  bottom: 0
+  display: flex
+  flex-direction: column
+  justify-content: center
+  left: 0
+  position: fixed
+  right: 0
+  top: 0
+  z-index: 999
+
+  &__title,
+  &__content
+    animation: fadeInUp .25s forwards
+    background: white
+    max-width: 100%
+    padding: $baseline
+    width: 24em
+
+    h4
+      margin: 0
+
+  &__title
+    border-bottom: 1px solid darken($color-white, 5%)
+
+  &--success
+    .message__title
+      color: $color-green
+
+  &--error
+    .message__title
+      color: $color-lilac
