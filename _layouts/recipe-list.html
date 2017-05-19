@@ -20,12 +20,12 @@ layout: base
           </div>
 
           {% if recipe.image %}
-            <meta itemprop="image" content="{{ recipe.image }}" />
+            <meta itemprop="image" content="{{ site.url }}{{ recipe.image }}" />
           {% endif %}
 
           <h2>
-            <a href="{{ recipe.url }}" itemprop="title">
-              <meta itemprop="url" content="{{ recipe.url }}">
+            <meta itemprop="url" content="{{ site.url }}{{ recipe.url }}">
+            <a href="{{ recipe.url }}" itemprop="name">
               {{ recipe.title }}
             </a>
           </h2>
