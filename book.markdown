@@ -6,7 +6,7 @@ layout: base
 ---
 
 <section class="book__intro">
-  <p>Please choose your preferred package from the list below. Once your purchase is complete, I will get in touch to arrange a suitable date for your first session.</p>
+  <p>Save 5% by booking a block of 10 sessions or pay for a single session below. Get in touch to confirm available time slots.</p>
 </section>
 
 <section class="sessions">
