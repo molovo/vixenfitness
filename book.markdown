@@ -1,12 +1,12 @@
 ---
 title: Book a Session
-layout: base
 slug: book
 intro: Start Your Own<br /><span class="highlight--plum">Fitness Journey</span> Today.
+layout: base
 ---
 
 <section class="book__intro">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <p>Please choose your preferred package from the list below. Once your purchase is complete, I will get in touch to arrange a suitable date for your first session.</p>
 </section>
 
 <section class="sessions">
