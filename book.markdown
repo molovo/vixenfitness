@@ -15,7 +15,7 @@ layout: base
       <li>
         <div class="sessions__item-content">
           <h2>One Session</h2>
-          <p>An hour long session with Gemma, helping you work towards your goals, with workout and nutrition advice to help you work between sessions.</p>
+          <p>An hour long session with Gemma, helping you work towards your goals, with workout and nutrition advice to aid your progress between sessions.</p>
         </div>
         <div class="sessions__item-price">
           <a href="#" class="button button--buy" data-name="Vixen Fitness" data-description="One Session" data-amount="4000">
@@ -27,7 +27,7 @@ layout: base
       <li>
         <div class="sessions__item-content">
           <h2>Ten Sessions</h2>
-          <p>Ten full hour-long sessions, at times convenient to you, with a ten-week workout plan.</p>
+          <p>Ten full hour-long sessions, at times convenient to you. Arrange all sessions at once, or as and when required.</p>
         </div>
         <div class="sessions__item-price">
           <a href="#" class="button button--buy" data-name="Vixen Fitness" data-description="Ten Sessions" data-amount="38000">
