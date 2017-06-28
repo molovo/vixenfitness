@@ -22,6 +22,7 @@ steps:
 - Add in prawns and stir fry until cooked through.
 - Add noodles and cook until warmed through.
 - Serve and top with crushed cashew nuts.
+image: "/uploads/IMG_7812.JPG"
 description: Quick, simple and delicious. This stir fry takes minutes to make and
   is packed full of nutrients and flavour.
 ---
