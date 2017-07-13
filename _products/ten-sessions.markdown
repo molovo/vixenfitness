@@ -1,6 +1,6 @@
 ---
 title: Ten Sessions
-price: 380.00
+price: 380.0
 badge: Save 5%
 order: 2
 ---

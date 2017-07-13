@@ -1,6 +1,6 @@
 ---
 title: Single Session
-price: 40.00
+price: 40.0
 order: 1
 ---
 
