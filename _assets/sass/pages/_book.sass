@@ -21,6 +21,7 @@
 
     li
       display: flex
+      justify-content: space-between
       margin: 0 0 #{$baseline * 2}
 
       @media (max-width: 36em)
@@ -28,7 +29,7 @@
 
   &--item-content,
   &--item-price
-    flex: 0 0 100%
+    flex: 1 1 100%
 
   @media (min-width: 36em)
     &__item-price

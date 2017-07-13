@@ -12,6 +12,9 @@ collections:
     title: Recipes
     output: true
     permalink: "/recipes/:path"
+  products:
+    title: Products
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -22,8 +25,8 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    image: 
-    description: 
+    image:
+    description:
 - scope:
     path: ''
     type: recipes
@@ -33,19 +36,25 @@ defaults:
     serves: 2
     preparation_time: 15mins
     cooking_time: 15mins
-    ingredients: 
+    ingredients:
     steps:
-    - 
-    image: 
-    description: 
+    -
+    image:
+    description:
     diets:
-    - 
+    -
 - scope:
     path: ''
     type: pages
   values:
     layout: page
-    description: 
+    description:
+- scope:
+    path: ''
+    type: products
+  values:
+    title: ''
+    price: 0.00
 url: https://www.vixenfitness.co.uk
 logo: "/img/vixen-icon-plum-bg.png"
 author: Gemma Holloway

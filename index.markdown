@@ -15,7 +15,9 @@ layout: base
   <a class="button" href="/about">Find Out More</a>
 </section>
 
-<img class="image--full-bleed" src="/img/bg3.jpg" />
+<div>
+    <img class="image--full-bleed" src="/img/bg3.jpg" />
+</div>
 
 {% comment %}
 <section class="homepage-section homepage-section--sessions">
