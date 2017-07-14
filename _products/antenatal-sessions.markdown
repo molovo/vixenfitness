@@ -1,7 +1,7 @@
 ---
-title: Pre/Ante-natal Session
-price: 50.0
+title: Ante-natal Session
+price: 50
 order: 4
 ---
 
-A unique session, tailored to your needs as a new mum/mum-to-be.
+Reap the benefits of exercise whilst pregnant under the guidance of a trainer with full knowledge of the specific requirements of a mum-to-be.
