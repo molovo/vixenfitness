@@ -1,8 +1,10 @@
 ---
 title: Ten Sessions
-price: 380.0
+price: 380
 badge: Save 5%
 order: 2
 ---
 
-Ten full hour-long sessions, at times convenient to you. Arrange all sessions at once, or as and when required.
+Receive a discount by block booking 10 sessions. Arrange all sessions at once, or as and when required. 
+
+Pricing doesn't apply to group, ante-natal or post-natal sessions.
