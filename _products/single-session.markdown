@@ -1,7 +1,7 @@
 ---
-title: Single Session
-price: 40.0
+title: 1-2-1 Personal Training
+price: 40
 order: 1
 ---
 
-An hour long session with Gemma, helping you work towards your goals, with workout and nutrition advice to aid your progress between sessions.
+A personalised training programme tailored towards your individual goals.
