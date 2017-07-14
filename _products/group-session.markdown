@@ -1,6 +1,6 @@
 ---
 title: Group Session
-price: 30
+price: 20
 order: 3
 ---
 
