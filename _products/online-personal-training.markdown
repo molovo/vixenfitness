@@ -5,4 +5,5 @@ price: Coming Soon
 order: 6
 ---
 
+**COMING SOON**
 Get all the benefits of personal training without the inconvience of arranged sessions. Price per month.
