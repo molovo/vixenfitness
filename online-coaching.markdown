@@ -14,6 +14,4 @@ All the benefits of a personal trainer at only half the cost.
 * Monthly Skype call
 * Nutritional advice to help achieve your goals
 
-50% off your first month if you sign up before 31st August.
-
 Get in touch for pricing.
