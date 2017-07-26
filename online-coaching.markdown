@@ -9,7 +9,7 @@ All the benefits of a personal trainer at only half the cost.
 * Full consultation
 * Personalised fitness plan tailored to your goals 
 * Free plan adaptations when required 
-* Unlimited email communication 
+* Email communication and access to private WhatsApp group 
 * Weekly progress review
 * Monthly Skype call
 * Nutritional advice to help achieve your goals
