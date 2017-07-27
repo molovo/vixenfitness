@@ -150,6 +150,16 @@
     }</script>
 
     <!--
+      Social Proof
+    -->
+    {% for item in site.contact.social %}
+      {% assign site = item[0] %}
+      {% assign username = item[1] %}
+      <link rel="me" href="//{{ site }}.com/{{ username }}" />
+    {% endfor %}
+    <link rel="me" href="mailto:{{ site.contact.email }}" />
+
+    <!--
       Meta links
     -->
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}" />
