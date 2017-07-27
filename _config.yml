@@ -65,6 +65,13 @@ contact:
     facebook: gemmahollowayfitness
     instagram: VixenFitnessUK
     snapchat: add/gemgemwings
+
+# Include a couple plugins
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-webmention_io
+
 keep_files:
 - css
 - js
@@ -75,3 +82,15 @@ exclude:
 - yarn.lock
 - node_modules
 permalink: pretty
+
+# Webmentions
+webmentions:
+  username: www.vixenfitness.co.uk
+  # skip bad URLs for 5 days
+  cache_bad_uris_for: 5
+  # I moved to www and then to https, so…
+  legacy_domains:
+    - http://vixenfitness.co.uk
+    - http://www.vixenfitness.co.uk
+    - https://vixenfitness.co.uk
+  js: false
