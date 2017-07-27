@@ -1,0 +1,94 @@
+.webmentions
+  max-width: 56em
+  padding: #{$baseline * 2} $baseline
+
+  @media (min-width: 36em)
+    padding: #{$baseline * 2}
+
+  & + &
+    font-size: .75em
+    line-height: $baseline
+    margin-top: #{(4/3) * $baseline * -1}
+    padding: 0 #{(4/3) * $baseline * 2} (4/3) * $baseline
+
+    @media (min-width: 36em)
+      padding: 0 #{(4/3) * $baseline * 2}
+
+  &__list
+    list-style: none
+
+  &__not-found
+    font-family: $font-serif
+    font-style: italic
+
+  &__item
+    border-bottom: 1px dashed $color-lilac
+    margin-bottom: $baseline
+    padding-bottom: $baseline
+
+    &:last-child
+      border-bottom-width: 0
+
+.webmention
+  align-items: center
+  display: flex
+  flex-wrap: wrap
+
+  &__author
+    a
+      align-items: center
+      display: flex
+
+    &__photo
+      margin-right: $baseline
+      width: #{$baseline * 2}
+
+  &__content
+    flex: 0 0 100%
+    order: 2
+    padding-left: #{$baseline * 3}
+
+    p
+      margin-bottom: 0
+
+  &__meta
+    color: $color-lilac
+    font-family: $font-serif
+    font-style: italic
+    margin-left: auto
+
+  &__source
+    display: inline-block
+    height: 1em
+    line-height: 1em
+    overflow: hidden
+    position: relative
+    text-indent: 1.5em
+    vertical-align: middle
+    white-space: nowrap
+    width: 1em
+
+    &:hover
+      margin-right: -.5em
+      overflow: inherit
+      width: 1.5em
+
+  &__source
+    background: url('/img/icons/link.svg') left center / contain no-repeat
+
+  &--like,
+  &--repost
+    .webmention__content
+      color: $color-lilac
+      flex: 1 1 auto
+      font-family: $font-serif
+      font-style: italic
+      order: 0
+      padding-left: 0
+
+      a:last-of-type
+        display: none
+
+    .webmention__author
+      .p-name
+        display: none
