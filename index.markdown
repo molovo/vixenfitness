@@ -16,16 +16,16 @@ layout: base
 
   <ul>
     <li>
-      <a href="https://www.vixenfitness.co.uk/book/">Mobile Personal Training</a>
+      <a href="/book/">Mobile Personal Training</a>
     </li>
     <li>
-      <a href="https://www.vixenfitness.co.uk/book/">Antenatal/Postnatal Fitness</a>
+      <a href="/book/">Antenatal/Postnatal Fitness</a>
     </li>
     <li>
-      <a href="https://www.vixenfitness.co.uk/classes/">Fitness Classes</a>
+      <a href="/classes/">Fitness Classes</a>
     </li>
     <li>
-      <a href="https://www.vixenfitness.co.uk/online-coaching/">Online Personal Training</a>
+      <a href="/online-coaching/">Online Personal Training</a>
     </li>
   </ul>
 
