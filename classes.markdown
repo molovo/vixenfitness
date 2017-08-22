@@ -6,4 +6,4 @@ description: Get fit and meet other like-minded people in one of our fun yet eff
 ---
 
 ## Starts Friday 8th September
-[IMG_0153.PNG](/uploads/IMG_0153.PNG)
+![IMG_0153.PNG](/uploads/IMG_0153.PNG)
