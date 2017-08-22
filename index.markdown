@@ -10,14 +10,24 @@ layout: base
 <section class="homepage-section homepage-section--about">
   <h2>Personal Training to<br /><span class="highlight--pink">build your confidence</span>.</h2>
 
-  <p class="about__content">I am a Level 3 qualified fitness instructor and personal trainer focused on building body confidence and self love. With a passion stemming from a difficult transition into motherhood, I am a strong believer that fitness can provide a positive outlook on life and the journey to achieving your goals can, and should, be enjoyed!
+  <p class="about__content">I am a Level 3 qualified fitness instructor and personal trainer focused on building body confidence and self love. With a passion stemming from a difficult transition into motherhood, I am a strong believer that fitness can provide a positive outlook on life and the journey to achieving your goals can, and should, be enjoyed!</p>
 
-Start your journey today with one of the following options;
+  <p>Start your journey today with one of the following options:</p>
 
-*[Mobile Personal Training](https://www.vixenfitness.co.uk/book/)
-*[Antenatal/Postnatal Fitness](https://www.vixenfitness.co.uk/book/)
-*[Fitness Classes](https://www.vixenfitness.co.uk/classes/)
-*[Online Personal Training](https://www.vixenfitness.co.uk/online-coaching/)</p>
+  <ul>
+    <li>
+      <a href="https://www.vixenfitness.co.uk/book/">Mobile Personal Training</a>
+    </li>
+    <li>
+      <a href="https://www.vixenfitness.co.uk/book/">Antenatal/Postnatal Fitness</a>
+    </li>
+    <li>
+      <a href="https://www.vixenfitness.co.uk/classes/">Fitness Classes</a>
+    </li>
+    <li>
+      <a href="https://www.vixenfitness.co.uk/online-coaching/">Online Personal Training</a>
+    </li>
+  </ul>
 
   <a class="button" href="/about">Find Out More</a>
 </section>
