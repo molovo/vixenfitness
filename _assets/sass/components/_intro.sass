@@ -1,8 +1,11 @@
 .intro
   background: url('/img/bg2.jpg') center / cover no-repeat
   box-sizing: border-box
-  min-height: calc(100vh - #{$baseline * 2})
+  min-height: calc(100vh - #{$baseline})
   position: relative
+
+  @media (min-width: 36em)
+    min-height: calc(100vh - #{$baseline * 2})
 
   &__container
     display: flex

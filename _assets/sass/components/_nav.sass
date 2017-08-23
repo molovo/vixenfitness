@@ -87,6 +87,7 @@
       .scrolled &, .menu-open &
         background: url('/img/vixen-horizontal-no-bg-(alt).svg') center / contain no-repeat
         height: 4.5em
+        margin: #{$baseline / 2} 0
 
     &.main-nav__menu
       background: url('/img/icons/menu-white.svg') center / $baseline no-repeat
@@ -94,9 +95,9 @@
       overflow: hidden
       padding: $baseline
       position: absolute
-      right: 0
+      right: $baseline
       text-indent: 100%
-      top: 0
+      top: $baseline
       width: #{3 * $baseline}
 
       @media (min-width: 36em)
@@ -104,3 +105,6 @@
 
       .scrolled &, .menu-open &
         background-image: url('/img/icons/menu.svg')
+
+      .scrolled &
+        top: #{$baseline / 2}
