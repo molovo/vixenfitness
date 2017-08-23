@@ -20,17 +20,17 @@ layout: base
 
     <div class="recipe__info-item" itemprop="recipeYield">
       Serves
-      <span class="highlight--lilac">{{ page.serves }}</span>
+      <span>{{ page.serves }}</span>
     </div>
 
     <div class="recipe__info-item" itemprop="prepTime">
       Preparation Time
-      <span class="highlight--lilac">{{ page.preparation_time }}</span>
+      <span>{{ page.preparation_time }}</span>
     </div>
 
     <!-- <div class="recipe__info-item" itemprop="cookTime">
       Cooking Time
-      <span class="highlight--lilac">{{ page.cooking_time }}</span>
+      <span>{{ page.cooking_time }}</span>
     </div> -->
 
     <ul class="recipe__tags">
@@ -52,10 +52,10 @@ layout: base
     <ul class="recipe__ingredients">
       {% for ingredient in page.ingredients %}
         <li itemprop="recipeIngredient">
-          <span>
+          <span class="recipe__ingredient">
             {{ ingredient[0] }}
           </span>
-          <span class="highlight--lilac">
+          <span class="recipe__amount">
             {{ ingredient[1] }}
           </span>
         </li>

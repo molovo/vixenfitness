@@ -42,7 +42,9 @@
       white-space: nowrap
 
       span
-        margin-right: 1ch
+        &:first-child
+          color: $color-pink
+          font-weight: 700
 
 .recipe
   align-items: flex-start
@@ -80,6 +82,10 @@
       & + h6
         margin-top: $baseline
 
+      span
+        color: $color-lilac
+        font-weight: 700
+
   &__ingredients
     list-style: none
     margin: 0
@@ -87,6 +93,10 @@
     li
       display: flex
       justify-content: space-between
+
+  &__amount
+    color: $color-lilac
+    font-weight: 700
 
   &__content
     max-width: 36em
