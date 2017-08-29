@@ -2,7 +2,7 @@
 title: Post-Natal Personal Training
 slug: post-natal-training
 intro: You Are a<br /><span class="highlight--yellow">Yummy Mummy</span>
-subtitle: Personalised Post-Natal training<br />that fits around your life as a Mum
+subtitle: Personalised Post-Natal training <br />that fits around your life as a Mum
 layout: service
 product: Post-Natal Session
 ---

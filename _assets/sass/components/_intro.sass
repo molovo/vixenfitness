@@ -104,6 +104,10 @@
   p
     margin-bottom: 0
 
+    @media (max-width: 36em)
+      br
+        display: none
+
 .intro--ante-natal-training
   .intro__container
     &::before
@@ -112,7 +116,8 @@
       mix-blend-mode: initial
 
   h1
-    font-size: 4.5em
+    @media (min-width: 36em)
+      font-size: 4.5em
 
   p
     color: $color-plum
