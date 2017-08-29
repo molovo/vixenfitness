@@ -12,12 +12,12 @@
     flex-direction: column
     flex-wrap: wrap
     min-height: calc(100vh - #{$baseline * 2})
-    justify-content: center
-    padding: #{$baseline * 4} $baseline
+    justify-content: flex-end
+    padding: #{$baseline * 4} $baseline 0
     width: 100%
 
     @media (min-width: 36em)
-      padding: #{$baseline * 4} #{$baseline * 2}
+      padding: #{$baseline * 4} #{$baseline * 2} $baseline
 
     &::before
       backdrop-filter: saturate(1.25) contrast(1) brightness(.75);
@@ -40,6 +40,9 @@
   h1
     color: $color-white
     text-transform: uppercase
+
+    @media (min-width: 36em)
+      font-size: 4.5em
 
   &__fullstop
     color: $color-plum
@@ -115,12 +118,14 @@
       background: rgba($color-yellow, .9)
       mix-blend-mode: initial
 
+  h1,
+  p
+    color: $color-plum
+
   h1
     @media (min-width: 36em)
       font-size: 4.5em
 
-  p
-    color: $color-plum
 
 .intro--post-natal-training
   .intro__container
