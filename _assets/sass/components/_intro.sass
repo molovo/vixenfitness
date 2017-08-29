@@ -88,3 +88,48 @@
       backdrop-filter: saturate(0) contrast(1) brightness(1)
       background: rgba($color-green, .9)
       mix-blend-mode: initial
+
+.intro--service
+  .intro__container
+    justify-content: flex-end
+    padding: #{$baseline * 4} $baseline #{$baseline * 2}
+
+    @media (min-width: 36em)
+      padding: #{$baseline * 4} #{$baseline * 2} #{$baseline * 2}
+
+  h1,
+  p
+    color: $color-white
+
+  p
+    margin-bottom: 0
+
+.intro--ante-natal-training
+  .intro__container
+    &::before
+      background-filter: saturate(0) contract(1) brightness(1)
+      background: rgba($color-yellow, .9)
+      mix-blend-mode: initial
+
+  h1
+    font-size: 4.5em
+
+  p
+    color: $color-plum
+
+.intro--post-natal-training
+  .intro__container
+    &::before
+      background-filter: saturate(0) contract(1) brightness(1)
+      background: rgba($color-pink, .9)
+      mix-blend-mode: initial
+
+  h1
+    font-size: 4.5em
+
+.intro--mobile-personal-training
+  .intro__container
+    &::before
+      background-filter: saturate(0) contract(1) brightness(1)
+      background: rgba($color-lilac, .9)
+      mix-blend-mode: initial

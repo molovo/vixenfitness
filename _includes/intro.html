@@ -1,9 +1,13 @@
-<section class="intro intro--{{ page.slug }}" {% if page.image %}style="background: url('{{ page.image }}') center / cover no-repeat;"{% endif %}>
+<section class="intro intro--{{ page.slug }} intro--{{ page.layout }}" {% if page.image %}style="background: url('{{ page.image }}') center / cover no-repeat;"{% endif %}>
   <div class="intro__container">
     {% if page.intro %}
       <h1 id="page-title">{{ page.intro }}</h1>
     {% else %}
       <h1 id="page-title">{{ page.title }}</h1>
+    {% endif %}
+
+    {% if page.subtitle %}
+      <p class="lead">{{ page.subtitle }}</p>
     {% endif %}
   </div>
 </section>

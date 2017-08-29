@@ -1,7 +1,7 @@
 ---
 title: Book a Session
 slug: book
-intro: Start Your Own<br /><span class="highlight--plum">Fitness Journey</span> Today.
+intro: Start Your Own<br /><span class="highlight--plum">fitness journey</span> Today.
 layout: base
 ---
 
@@ -20,13 +20,7 @@ layout: base
             <p>{{ product.content }}</p>
           </div>
           <div class="sessions__item-price">
-            <a href="#" class="button button--buy" data-name="Vixen Fitness" data-description="{{ product.title }}" data-amount="{{ product.price | times: 100 | round }}">
-              <span class="button__text">Book Now</span>
-              <span class="button__text button__text--price">£{{ product.price | round }}</span>
-              {% if product.badge %}
-                <span class="button__badge">{{ product.badge }}</span>
-              {% endif %}
-            </a>
+            {% include add-to-basket-button.html product=product %}
           </div>
         </li>
       {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: Home
 slug: home
-intro: Be Healthy.<br />Be Confident.<br />Be <span class="highlight--pink">a vixen</span>.
+intro: Be Healthy.<br />Be Confident.<br /><span class="highlight--yellow">be a vixen</span>.
 layout: base
 ---
 
@@ -19,7 +19,10 @@ layout: base
       <a href="/book/">Mobile Personal Training</a>
     </li>
     <li>
-      <a href="/book/">Antenatal/Postnatal Fitness</a>
+      <a href="/services/ante-natal-training">Ante-Natal Training</a>
+    </li>
+    <li>
+      <a href="/services/post-natal-training">Post-Natal Training</a>
     </li>
     <li>
       <a href="/classes/">Fitness Classes</a>

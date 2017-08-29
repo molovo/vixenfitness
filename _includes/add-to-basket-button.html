@@ -1,0 +1,11 @@
+<a href="javascript:void('');"
+   class="button button--buy"
+   data-name="Vixen Fitness"
+   data-description="{{ include.product.title }}"
+   data-amount="{{ include.product.price | times: 100 | round }}">
+  <span class="button__text">Book Now</span>
+  <span class="button__text button__text--price">£{{ include.product.price | round }}</span>
+  {% if include.product.badge %}
+    <span class="button__badge">{{ include.product.badge }}</span>
+  {% endif %}
+</a>

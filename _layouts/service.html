@@ -5,6 +5,9 @@ layout: base
 <section class="page">
   <article class="page__content">
     {{ content }}
+
+    {% assign product = site.products | where: "title", page.product | first %}
+    {% include add-to-basket-button.html product=product %}
   </article>
 </section>
 
