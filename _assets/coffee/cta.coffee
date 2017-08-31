@@ -1,5 +1,3 @@
-cookies = require 'js-cookie'
-
 module.exports = class Cta
   constructor: () ->
     @content = document.querySelector '.main'
