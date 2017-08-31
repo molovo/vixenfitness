@@ -2,39 +2,41 @@
 layout: base
 ---
 
-<section class="posts">
-  <header class="posts__header">
-    {{ page.content | markdownify }}
-  </header>
+<main class="main">
+  <section class="posts">
+    <header class="posts__header">
+      {{ page.content | markdownify }}
+    </header>
 
-  <ul class="posts__list">
-    {% for post in site.posts %}
-      <li class="posts__item">
-        <article class="posts__content">
-          <h2>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h2>
+    <ul class="posts__list">
+      {% for post in site.posts %}
+        <li class="posts__item">
+          <article class="posts__content">
+            <h2>
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </h2>
 
-          <ul class="posts__meta">
-            <li>
-              <span>Posted on</span>
-              <date class="posts__date">{{ post.date | date: "%d %B %Y" }}</date>
-            </li>
-          </ul>
+            <ul class="posts__meta">
+              <li>
+                <span>Posted on</span>
+                <date class="posts__date">{{ post.date | date: "%d %B %Y" }}</date>
+              </li>
+            </ul>
 
-          {{ post.description | markdownify }}
-        </article>
+            {{ post.description | markdownify }}
+          </article>
 
-        <div class="posts__image">
-          {% if post.image %}
-            <img src="{{ post.image }}" class="posts__image">
-          {% endif %}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+          <div class="posts__image">
+            {% if post.image %}
+              <img src="{{ post.image }}" class="posts__image">
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
 
-{% include signup.html %}
+{% include cta/subscribe.html %}

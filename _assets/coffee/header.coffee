@@ -62,18 +62,14 @@ module.exports = class Header
       evt = evt or window.event
       evt.preventDefault()
 
-      if @body.classList.contains 'menu-open'
-        @body.classList.remove 'menu-open'
-        @toggleScrolledStatus()
-      else
-        @body.classList.add 'menu-open'
-        @toggleScrolledStatus()
+      @body.classList.toggle 'menu-open'
+      @toggleScrolledStatus()
 
   registerOnScrollListeners: () =>
     window.addEventListener 'scroll', @toggleScrolledStatus
 
   toggleScrolledStatus: () =>
-    if window.pageYOffset > 140 or @body.classList.contains 'menu-open'
+    if window.pageYOffset > 140 or @body.classList.contains('menu-open') or @body.classList.contains('modal-open')
       @header.style.backgroundColor = null
       @header.style.paddingBottom   = null
       @header.style.paddingTop      = null

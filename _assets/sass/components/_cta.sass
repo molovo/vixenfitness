@@ -1,0 +1,99 @@
+.cta
+  background: $color-lilac
+  border-bottom: 0 solid $color-white
+  bottom: 0
+  height: #{$baseline * 6.25}
+  overflow-x: hidden
+  overflow-y: hidden
+  position: sticky
+  transition: border .25s, height .25s, transform .25s
+  z-index: 99
+
+  @media (min-width: 36em)
+    height: #{$baseline * 3.75}
+
+  &__header
+    align-items: center
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: $baseline
+    transition: padding .25s
+
+    @media (min-width: 36em)
+      flex-wrap: nowrap
+      padding: $baseline #{$baseline * 2}
+
+  &__content,
+  &__buttons
+    flex: 0 0 100%
+
+    @media (min-width: 36em)
+      flex: 0 0 auto
+
+  &__main
+    padding: 0 $baseline $baseline
+
+    @media (min-width: 36em)
+      padding: 0 #{$baseline * 2} #{$baseline * 2}
+
+  &__title,
+  &__description
+    margin: 0
+
+  &__title
+    color: $color-white
+    text-transform: uppercase
+
+  &__description
+    color: $color-white
+
+  &__button
+    background: $color-yellow
+    color: $color-plum
+    margin-top: #{$baseline / 2}
+    overflow: hidden
+    position: relative
+
+    @media (min-width: 36em)
+      margin-top: 0
+
+    &::before
+      background: $color-yellow
+      content: 'Close'
+      left: 0
+      position: absolute
+      text-align: center
+      transform: translateX(-100%)
+      transition: transform .25s
+      width: 100%
+
+  &--hidden
+    transform: translateY(100%)
+
+  &--expanded
+    border-bottom-width: #{$baseline / 2}
+    height: calc(100vh - #{$baseline * 2.85})
+    overflow-y: auto
+
+    @media (min-width: 36em)
+      border-bottom-width: $baseline
+      height: calc(100vh - #{$baseline * 2.95})
+
+    .cta__header
+      padding: $baseline
+
+      @media (min-width: 36em)
+        padding: #{$baseline * 2}
+
+    .cta__button
+      &::before
+        transform: translateX(0)
+
+  .form__label,
+  .form__header
+    color: $color-white
+
+  .form__button
+    background: $color-yellow
+    color: $color-plum

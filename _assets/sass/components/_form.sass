@@ -1,0 +1,48 @@
+.form
+  align-items: stretch
+  display: flex
+  flex-wrap: wrap
+
+  &__header,
+  &__col
+    flex: 0 0 100%
+
+  &__header
+    align-self: flex-start
+
+  &__col
+    @media (min-width: 36em)
+      flex: 0 0 calc(50% - #{$baseline})
+
+      &:nth-of-type(2n+1)
+        margin-right: #{$baseline * 2}
+
+  &__label
+    display: block
+    margin: 0 0 #{$baseline / 2}
+
+    &-text
+      display: block
+      font-size: .75em
+      font-weight: 700
+
+  &__input
+    border: 2px solid $color-white
+    box-sizing: border-box
+    color: $color-plum
+    font: inherit
+    line-height: inherit
+    padding: .25em .75em
+    width: 100%
+
+    &:focus
+      border-color: $color-pink
+      outline: 0
+
+    &--textarea
+      height: 6.6em
+
+  &__buttons
+    display: flex
+    justify-content: flex-end
+    margin-top: 1.75em

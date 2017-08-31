@@ -2,74 +2,76 @@
 layout: base
 ---
 
-<section class="recipes">
-  <header class="recipes__header">
-    {{ page.content | markdownify }}
-  </header>
+<main class="main">
+  <section class="recipes">
+    <header class="recipes__header">
+      {{ page.content | markdownify }}
+    </header>
 
-  <ul class="recipes__list">
-    {% assign recipes = site.recipes | reverse %}
-    {% for recipe in recipes %}
-      <li class="recipes__item">
-        <article class="recipes__content" itemscope itemtype="http://schema.org/Recipe">
-          <meta itemprop="datePublished" content="{{ page.date | date_to_xml_schema }}" />
+    <ul class="recipes__list">
+      {% assign recipes = site.recipes | reverse %}
+      {% for recipe in recipes %}
+        <li class="recipes__item">
+          <article class="recipes__content" itemscope itemtype="http://schema.org/Recipe">
+            <meta itemprop="datePublished" content="{{ page.date | date_to_xml_schema }}" />
 
-          <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="name" content="{{ site.author }}" />
-            <meta itemprop="url" content="{{ site.url }}" />
-          </div>
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <meta itemprop="name" content="{{ site.author }}" />
+              <meta itemprop="url" content="{{ site.url }}" />
+            </div>
+
+            {% if recipe.image %}
+              <meta itemprop="image" content="{{ site.url }}{{ recipe.image }}" />
+            {% endif %}
+
+            <h2>
+              <meta itemprop="url" content="{{ site.url }}{{ recipe.url }}">
+              <a href="{{ recipe.url }}" itemprop="name">
+                {{ recipe.title }}
+              </a>
+            </h2>
+
+            <ul class="recipes__meta">
+              <li>
+                <span>Serves</span>
+                <span itemprop="recipeYield">
+                  {{ recipe.serves }}
+                </span>
+              </li>
+              <li>
+                <span>Preparation Time</span>
+                <span itemprop="prepTime">
+                  {{ recipe.preparation_time }}
+                </span>
+              </li>
+            </ul>
+
+            <ul class="recipe__tags">
+              {% for diet-title in recipe.diets %}
+                {% assign diet = site.diets | where: "title", diet-title | first %}
+
+                {% if diet %}
+                  <li class="button recipe__tag">
+                    <link itemprop="suitableForDiet"
+                          href="{{ diet.schema }}" />
+                    {{ diet.title }}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+
+            <div itemprop="description">
+              {{ recipe.description | markdownify }}
+            </div>
+          </article>
 
           {% if recipe.image %}
-            <meta itemprop="image" content="{{ site.url }}{{ recipe.image }}" />
+            <img src="{{ recipe.image }}" class="recipes__image">
           {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
 
-          <h2>
-            <meta itemprop="url" content="{{ site.url }}{{ recipe.url }}">
-            <a href="{{ recipe.url }}" itemprop="name">
-              {{ recipe.title }}
-            </a>
-          </h2>
-
-          <ul class="recipes__meta">
-            <li>
-              <span>Serves</span>
-              <span itemprop="recipeYield">
-                {{ recipe.serves }}
-              </span>
-            </li>
-            <li>
-              <span>Preparation Time</span>
-              <span itemprop="prepTime">
-                {{ recipe.preparation_time }}
-              </span>
-            </li>
-          </ul>
-
-          <ul class="recipe__tags">
-            {% for diet-title in recipe.diets %}
-              {% assign diet = site.diets | where: "title", diet-title | first %}
-
-              {% if diet %}
-                <li class="button recipe__tag">
-                  <link itemprop="suitableForDiet"
-                        href="{{ diet.schema }}" />
-                  {{ diet.title }}
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-
-          <div itemprop="description">
-            {{ recipe.description | markdownify }}
-          </div>
-        </article>
-
-        {% if recipe.image %}
-          <img src="{{ recipe.image }}" class="recipes__image">
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-{% include signup.html %}
+{% include cta/subscribe.html %}

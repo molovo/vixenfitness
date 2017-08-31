@@ -3,22 +3,24 @@ layout: base
 slug: blog
 ---
 
-<article class="post">
-  <ul class="post__meta">
-    <li>
-      <span>Posted on</span>
-      <date class="posts__date">{{ page.date | date: "%d %B %Y" }}</date>
-    </li>
-  </ul>
-  <div class="post__content">
-    {{ page.content | markdownify }}
-  </div>
-</article>
+<main class="main">
+  <article class="post">
+    <ul class="post__meta">
+      <li>
+        <span>Posted on</span>
+        <date class="posts__date">{{ page.date | date: "%d %B %Y" }}</date>
+      </li>
+    </ul>
+    <div class="post__content">
+      {{ page.content | markdownify }}
+    </div>
+  </article>
+</main>
+
+{% include cta/subscribe.html %}
 
 <div class="webmentions">
   <h4>Responses</h4>
 </div>
 
 {% webmentions page.url %}
-
-{% include signup.html %}

@@ -2,13 +2,15 @@
 layout: base
 ---
 
-<section class="page">
-  <article class="page__content">
-    {{ content }}
+<main class="main">
+  <section class="page">
+    <article class="page__content">
+      {{ content }}
 
-    {% assign product = site.products | where: "title", page.product | first %}
-    {% include add-to-basket-button.html product=product %}
-  </article>
-</section>
+      {% assign product = site.products | where: "title", page.product | first %}
+      {% include add-to-basket-button.html product=product %}
+    </article>
+  </section>
+</main>
 
-{% include signup.html %}
+{% include cta/service.html %}

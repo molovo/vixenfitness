@@ -2,86 +2,88 @@
 layout: base
 ---
 
-<article class="recipe" itemscope itemtype="http://schema.org/Recipe" aria-labelledby="page-title">
-  <meta itemprop="name" content="{{ page.title }}" />
-  <meta itemprop="datePublished" content="{{ page.date | date_to_xml_schema }}" />
+<main class="main">
+  <article class="recipe" itemscope itemtype="http://schema.org/Recipe" aria-labelledby="page-title">
+    <meta itemprop="name" content="{{ page.title }}" />
+    <meta itemprop="datePublished" content="{{ page.date | date_to_xml_schema }}" />
 
-  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="{{ site.author }}" />
-    <meta itemprop="url" content="{{ site.url }}" />
-  </div>
-
-  {% if page.image %}
-    <link itemprop="image" href="{{ page.image }}" />
-  {% endif %}
-
-  <aside class="recipe__info">
-    <h6>Recipe Info</h6>
-
-    <div class="recipe__info-item" itemprop="recipeYield">
-      Serves
-      <span>{{ page.serves }}</span>
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="{{ site.author }}" />
+      <meta itemprop="url" content="{{ site.url }}" />
     </div>
 
-    <div class="recipe__info-item" itemprop="prepTime">
-      Preparation Time
-      <span>{{ page.preparation_time }}</span>
-    </div>
+    {% if page.image %}
+      <link itemprop="image" href="{{ page.image }}" />
+    {% endif %}
 
-    <!-- <div class="recipe__info-item" itemprop="cookTime">
-      Cooking Time
-      <span>{{ page.cooking_time }}</span>
-    </div> -->
+    <aside class="recipe__info">
+      <h6>Recipe Info</h6>
 
-    <ul class="recipe__tags">
-      {% for diet-title in page.diets %}
-        {% assign diet = site.diets | where: "title", diet-title | first %}
+      <div class="recipe__info-item" itemprop="recipeYield">
+        Serves
+        <span>{{ page.serves }}</span>
+      </div>
 
-        {% if diet %}
-          <li class="button recipe__tag">
-            <link itemprop="suitableForDiet"
-                  href="{{ diet.schema }}" />
-            {{ diet.title }}
+      <div class="recipe__info-item" itemprop="prepTime">
+        Preparation Time
+        <span>{{ page.preparation_time }}</span>
+      </div>
+
+      <!-- <div class="recipe__info-item" itemprop="cookTime">
+        Cooking Time
+        <span>{{ page.cooking_time }}</span>
+      </div> -->
+
+      <ul class="recipe__tags">
+        {% for diet-title in page.diets %}
+          {% assign diet = site.diets | where: "title", diet-title | first %}
+
+          {% if diet %}
+            <li class="button recipe__tag">
+              <link itemprop="suitableForDiet"
+                    href="{{ diet.schema }}" />
+              {{ diet.title }}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <h6>Ingredients</h6>
+
+      <ul class="recipe__ingredients">
+        {% for ingredient in page.ingredients %}
+          <li itemprop="recipeIngredient">
+            <span class="recipe__ingredient">
+              {{ ingredient[0] }}
+            </span>
+            <span class="recipe__amount">
+              {{ ingredient[1] }}
+            </span>
           </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </ul>
+    </aside>
 
-    <h6>Ingredients</h6>
+    <div class="recipe__content">
+      <div itemprop="description">
+        {{ page.content | markdownify }}
+      </div>
 
-    <ul class="recipe__ingredients">
-      {% for ingredient in page.ingredients %}
-        <li itemprop="recipeIngredient">
-          <span class="recipe__ingredient">
-            {{ ingredient[0] }}
-          </span>
-          <span class="recipe__amount">
-            {{ ingredient[1] }}
-          </span>
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
-
-  <div class="recipe__content">
-    <div itemprop="description">
-      {{ page.content | markdownify }}
+      <ol class="recipe__steps" itemprop="recipeInstructions">
+        {% for step in page.steps %}
+          <li>
+            <p>{{ step }}</p>
+          </li>
+        {% endfor %}
+      </ol>
     </div>
+  </article>
+</main>
 
-    <ol class="recipe__steps" itemprop="recipeInstructions">
-      {% for step in page.steps %}
-        <li>
-          <p>{{ step }}</p>
-        </li>
-      {% endfor %}
-    </ol>
-  </div>
-</article>
+{% include cta/subscribe.html %}
 
 <div class="webmentions">
   <h4>Responses</h4>
 </div>
 
 {% webmentions page.url %}
-
-{% include signup.html %}

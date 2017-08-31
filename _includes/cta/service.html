@@ -1,0 +1,27 @@
+<aside class="cta cta--service cta--hidden" id="consultation-cta">
+  <div class="cta__header">
+    <div class="cta__content">
+      <h4 class="cta__title">
+        Are you ready to <span class="highlight--yellow">be a vixen</span>?
+      </h4>
+
+      {% capture title %}{{ page.title | downcase }}{% endcapture %}
+      {% unless title.contains 'training' %}
+        {% assign title = 'personal training' %}
+      {% endunless %}
+
+      <p class="cta__description">
+          Book your free {{ title }} consultation now
+      </p>
+    </div>
+
+    <div class="cta__buttons">
+      <a href="javascript:void('');"
+         class="cta__button button">Book Now</a>
+    </div>
+  </div>
+
+  <div class="cta__main">
+    {% include forms/consultation.html %}
+  </div>
+</aside>

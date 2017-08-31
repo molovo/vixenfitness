@@ -16,7 +16,7 @@
   @media (min-width: 36em)
     padding: $baseline #{$baseline * 2}
 
-  .scrolled &, .menu-open &
+  .scrolled &, .menu-open &, .modal-open &
     background: $color-white
     padding: 0 $baseline
 
@@ -35,29 +35,15 @@
     transition: color .25s, height .25s, padding .25s
     +uc
 
-    &::after
-      background: $color-yellow
-      bottom: 0
-      content: ''
-      display: inline-block
-      height: .75em
-      left: $baseline
-      opacity: 0
-      position: absolute
-      right: $baseline
-      transition: opacity .25s
-
     &:hover
+      color: $color-yellow
       text-decoration: none
-
-    @media (min-width: 36em)
-      &:hover::after
-        opacity: 1
 
     @media (max-width: 36em)
       height: 0
 
-      .menu-open &
+      .menu-open &,
+      .modal-open &.main-nav__logo
         height: #{((4 / 3) * $baseline) * 3}
         padding: #{(4 / 3) * $baseline}
 
@@ -69,12 +55,14 @@
     .page--ante-natal-training &
       color: $color-plum
 
-      @media (min-width: 36em)
-        &:hover::after
-          background: $color-pink
+      &:hover
+        color: $color-white
 
-    .scrolled &, .menu-open &
+    .scrolled &, .menu-open &, .modal-open &
       color: $color-plum
+
+      &:hover
+        color: $color-pink
 
     &.main-nav__logo
       background: url('/img/vixen-vertical-no-bg.svg') center / contain no-repeat
@@ -87,9 +75,6 @@
       transition: none
       white-space: nowrap
 
-      &::after
-        content: none
-
       @media (max-width: 36em)
         order: 1
 
@@ -97,7 +82,7 @@
       .page--ante-natal-training &
         background: url('/img/vixen-vertical-no-bg-(alt 2).svg') center / contain no-repeat
 
-      .scrolled &, .menu-open &
+      .scrolled &, .menu-open &, .modal-open &
         background: url('/img/vixen-horizontal-no-bg-(alt).svg') center / contain no-repeat
         height: 4.25em
         margin: #{$baseline / 2} 0
@@ -116,7 +101,7 @@
       @media (min-width: 36em)
         display: none
 
-      .scrolled &, .menu-open &
+      .scrolled &, .menu-open &, .modal-open &
         background-image: url('/img/icons/menu.svg')
 
       .scrolled &

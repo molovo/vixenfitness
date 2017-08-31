@@ -1,8 +1,13 @@
 body
   border: #{$baseline / 2} solid $color-white
+  position: relative
 
   @media (min-width: 36em)
     border-width: $baseline
+
+  &.modal-open
+    height: 100vh
+    overflow: hidden
 
 .page
   padding: #{$baseline * 2} $baseline
