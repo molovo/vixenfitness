@@ -16,4 +16,5 @@ Booking essential.
 Pay as you go £5 per class.
 Children welcome.
 
+## Fri @ 16.00-16.45 Afterschool Fitness @ Eastney Community Centre
 ![IMG_0153.PNG](/uploads/IMG_0153.PNG)
