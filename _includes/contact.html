@@ -15,7 +15,7 @@
         <a href="//{{ site }}.com/{{ username }}" class="contact__social__link">
           {{ site }}
           <img src="/img/icons/{{ site }}.svg" class="contact__social__image" />
-          <img src="/img/icons/{{ site }}-color.svg" class="contact__social__image contact__social__image--color" />
+          <img src="/img/icons/{{ site }}-color.{% if site == 'instagram' %}png{% else %}svg{% endif %}" class="contact__social__image contact__social__image--color" />
         </a>
       </li>
     {% endfor %}
