@@ -19,7 +19,10 @@ layout: base
       <a href="/services/mobile-personal-training/">Mobile Personal Training</a>
     </li>
     <li>
-      <a href="/services/ante-natal-training/">Antenatal/Postnatal Fitness</a>
+      <a href="/services/ante-natal-training/">Antenatal Fitness</a>
+    </li>
+    <li>
+      <a href="/services/post-natal-training/">Postnatal Fitness</a>
     </li>
     <li>
       <a href="/classes/">Fitness Classes</a>
