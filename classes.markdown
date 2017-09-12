@@ -5,5 +5,14 @@ description: Get fit and meet other like-minded people in one of our fun yet eff
   classes.
 ---
 
-## Starts Friday 8th September
+## Tues @ 12.45-13.45 AnteNatal Fitness @ Milton Village Hall
+Starts 19th September.
+Booking essential.
+Pay as you go £5 per class.
+
+## Weds @ 11.30-12.30 PostNatal Fitness @ Milton Village Hall
+Starts 20th September.
+Booking essential.
+Pay as you go £5 per class.
+
 ![IMG_0153.PNG](/uploads/IMG_0153.PNG)
