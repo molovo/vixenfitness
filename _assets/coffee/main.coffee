@@ -35,7 +35,6 @@ if not ('closest' in Element.prototype)
 ###*
  * Where it all begins
 ###
-window.addEventListener 'DOMContentLoaded', () ->
-  window.header = new Header
-  window.stripe = new StripeIntegration
-  window.cta    = new Cta
+window.header = new Header
+window.stripe = new StripeIntegration
+window.cta    = new Cta

@@ -30,6 +30,9 @@
       Fonts
     -->
     <link rel="preload" href="/fonts/have-heart-one.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://use.typekit.net/xgs6ljk.css" as="style" type="text/css" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/xgs6ljk.css">
+
     <style>
     @font-face {
       font-family: 'Have Heart One';
@@ -58,17 +61,6 @@
         sessionStorage.criticalFoftFontsLoaded = true;
       });
     })();
-    
-    (function(d) {
-      var tkTimeout=3000;
-      if(window.sessionStorage){if(sessionStorage.getItem('useTypekit')==='false'){tkTimeout=0;}}
-      var config = {
-      kitId: 'xgs6ljk',
-      scriptTimeout: tkTimeout,
-      async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,'')+'wf-inactive';if(window.sessionStorage){sessionStorage.setItem('useTypekit','false')}},config.scriptTimeout),tk=d.createElement('script'),f=false,s=d.getElementsByTagName('script')[0],a;h.classList.add('wf-loading');tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!='complete'&&a!='loaded')return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
     </script>
 
     <!--
@@ -212,8 +204,6 @@
     <!-- End Google Tag Manager -->
 
     <link rel="stylesheet" href="/css/main.css">
-
-    <script src="https://checkout.stripe.com/checkout.js"></script>
   </head>
 
   <body class="page--{{ page.slug }} page--{{ page.layout }}">
@@ -229,6 +219,7 @@
     {% include contact.html %}
     {% include hashtag.html %}
 
-    <script src="/js/main.min.js"></script>
+    <script src="https://checkout.stripe.com/checkout.js" async></script>
+    <script src="/js/main.min.js" async></script>
   </body>
 </html>
