@@ -2,7 +2,8 @@
 title: Ante-Natal Personal Training
 slug: ante-natal-training
 intro: Legs, Bums<br /><span class="highlight--pink">and bumps</span>
-subtitle: Personalised Ante-Natal training <br />for you and your little bundle of joy
+subtitle: Personalised Ante-Natal training <br />for you and your little bundle of
+  joy
 layout: service
 product: Ante-Natal Session
 ---
