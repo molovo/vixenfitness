@@ -14,5 +14,6 @@ Pay as you go £5 per class.
 Starts 20th September.
 Booking essential.
 Pay as you go £5 per class.
+Children welcome.
 
 ![IMG_0153.PNG](/uploads/IMG_0153.PNG)
