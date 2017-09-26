@@ -1,6 +1,7 @@
 ---
 title: Why you should really be building a booty..
 date: 2017-09-26 13:45:00 +01:00
+image: "/uploads/young-sexy-fit-woman-preparing-herself-for-morning-jogging-picjumbo-com.jpg"
 description: It's time to jump on the big booty bandwagon and here's why.
 ---
 
