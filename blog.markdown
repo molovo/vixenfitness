@@ -5,4 +5,4 @@ slug: blog
 layout: post-list
 ---
 
-Join me in my fitness journey as I blog about various topics including nutrition, motivation and technique. Feel free to contact me if there are any subjects you'd like me to cover and I'd love to hear your feedback in the comments section of each post. Let's make this journey a joint one!  
+Thoughts, observations and advice on all the latest fitness trends and events.
