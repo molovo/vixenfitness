@@ -5,8 +5,12 @@ description: Get fit and meet other like-minded people in one of our fun yet eff
   classes.
 ---
 
+## Weds @ 9.15-10.15 Family Fitness @ Eastney Community Centre
+Starts 11th October.
+Exercise for parents, toddlers and preschoolers can also enjoy!
+No need to book. Pay as you go £5 per adult.
+
 ## Weds @ 11.30-12.30 PostNatal Fitness @ Milton Village Hall
-Starts 20th September.
 Booking essential.
 Pay as you go £5 per class.
 Children welcome.
