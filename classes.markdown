@@ -9,6 +9,7 @@ description: Get fit and meet other like-minded people in one of our fun yet eff
 Starts 11th October.
 Exercise for parents that toddlers and preschoolers can also enjoy!
 No need to book. Pay as you go £5 per adult.
+![618D6EF6-A29D-4738-8B4C-60F214EC4C5C.jpeg](/uploads/618D6EF6-A29D-4738-8B4C-60F214EC4C5C.jpeg)
 
 ## Weds @ 11.30-12.30 PostNatal Fitness @ Milton Village Hall
 Booking essential.
