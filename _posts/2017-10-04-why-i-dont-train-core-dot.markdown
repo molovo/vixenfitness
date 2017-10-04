@@ -4,7 +4,7 @@ date: 2017-10-04 14:21:00 +01:00
 description: Is core training really essential? Here's why I don't do it!
 ---
 
-Core strength is essential from protecting our organs to maintaining our posture. So when I get asked about my training regime and I don't specify and core training I am often met with confusion. But here's why..
+Core strength is essential from protecting our organs to maintaining our posture. So when I get asked about my training regime and I don't specify any core specific training I am often met with confusion. But here's why..
 
 The large majority of my training is weight lifting in some shape or form. I have always been a huge advocate of mastering good form before adding weight to avoid injury. If carried out correctly, all exercises require an engaged core (by this I mean the tensing of your stomach as if you are about to be punched). 
 
