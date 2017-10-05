@@ -3,31 +3,29 @@ title: Mobile Personal Training
 slug: mobile-personal-training
 intro: Work Out in Private<br /><span class="highlight--yellow">Show off in public</span>
 subtitle: Mobile Personal Training in<br />the comfort of your own home
-layout: service
 product: 1-2-1 Personal Training
+layout: service
 ---
 
-### Why do you need Ante-Natal<br />Personal Training?
+### What is mobile personal training?
 
-* Prepare you and your baby for the demands of labour,
-  and speed up your recovery after the birth
-* Relieve pregnancy symptoms such as back ache
-* Increase the amount of oxygen-rich blood delivered
-  to your baby via the placenta
+Much like conventional personal training, mobile personal training consists of one-to-one sessions with a trainer following a fitness programme tailored towards the goals of the individual.  However, unlike conventional personal training sessions which usually take part in a gym environment, a trainer will bring all of the equipment to you so that the session can take place within your home.
 
-### How can I help?
+### Is mobile personal training for me?
 
-I'm Gemma, a fully-qualified personal trainer, specialising
-in Pre- and Post-Natal fitness. With the use of functional
-exercise I can help you safely maintain your health, and
-condition your body so that you're ready for labour
-and the early days of motherhood.
+Whilst it is possible to achieve almost any fitness goal within the home environment, mobile personal training is ideal for weight loss, increasing fitness levels and improving the quality of everyday life through exercise.  
 
-### Is it safe?
+For many reasons attending a gym to workout may not be an option; membership costs, childcare arrangements and travel ability are all valid reasons and are prime examples of when mobile personal training would be the perfect solution.
 
-With proper guidance, exercising whilst pregnant is not
-only perfectly safe, but is actually highly beneficial,
-both to you and your baby.
+### Key benefits
+
+* No need to arrange childcare
+
+* No costly gym memberships
+
+* No judgemental onlookers
+
+* No additional travel time required
 
 ### How do you get started?
 
