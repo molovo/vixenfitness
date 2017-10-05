@@ -21,10 +21,10 @@ For many reasons attending a gym to workout may not be an option; membership cos
 
 ### Key benefits
 
-*No need to arrange childcare
-*No costly gym memberships
-*No judgemental onlookers
-*No additional travel time required
+* No need to arrange childcare
+* No costly gym memberships
+* No judgemental onlookers
+* No additional travel time required
 
 ### How do you get started?
 
