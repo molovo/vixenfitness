@@ -1,5 +1,7 @@
 ---
 title: Mobile Personal Training
+description: Workout in private, show off in public. Have a trainer come to your house
+  to deliver your personalised training plan.
 slug: mobile-personal-training
 intro: Work Out in Private<br /><span class="highlight--yellow">Show off in public</span>
 subtitle: Mobile Personal Training in<br />the comfort of your own home
