@@ -1,6 +1,9 @@
 ---
 title: Vegan Lentil Sauce
 date: 2017-10-12 17:23:00 +01:00
+serves: 8
+preparation_time: 15
+cooking_time: 25
 ingredients:
   Garlic, minced: 2 cloves
   Bell peppers, cubed: 1.5
@@ -21,6 +24,7 @@ steps:
   chilli flakes and coconut oil until all of the veg is evenly coated in the spices.
 - Add the remaining ingredients and stir throughly. Allow to simmer for 15 mins or
   until veg is al dente.
+image: "/uploads/A806687E-EB6F-4D9A-8D3B-64DA26358AD6.jpeg"
 description: The perfect base for lots of delicious recipes.
 diets:
 - Vegan
