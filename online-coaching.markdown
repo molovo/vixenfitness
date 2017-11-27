@@ -13,5 +13,3 @@ All the benefits of a personal trainer at only half the cost.
 * Weekly progress review
 * Monthly Skype call
 * Nutritional advice to help achieve your goals
-
-Get in touch and quote VFBLACK for 25% off your first 3 months.
