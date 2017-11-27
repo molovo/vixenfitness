@@ -1,7 +1,7 @@
 ---
 title: Ten Sessions
-price: 200
-badge: Save £100
+price: 270
+badge: Save 10%
 order: 2
 ---
 
