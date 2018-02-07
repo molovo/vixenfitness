@@ -6,7 +6,7 @@ layout: base
 ---
 
 <section class="book__intro">
-  <p>Save 5% by booking a block of 10 sessions or pay for a single session below. Get in touch to confirm available time slots.</p>
+  <p>Pay as you go sessions, one off programmes or discounted block bookings available. Get in touch for prices.</p>
 </section>
 
 <section class="sessions">
