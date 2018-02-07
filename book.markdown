@@ -1,6 +1,6 @@
 ---
-title: Book a Session
-slug: book
+title: Sessions and Packages
+slug: packages
 intro: Start Your Own<br /><span class="highlight--plum">fitness journey</span> Today.
 layout: base
 ---
