@@ -1,7 +1,6 @@
 ---
 title: Ante-Natal Session
-price: 30
 order: 4
 ---
 
-Reap the benefits of exercise whilst pregnant under the guidance of a trainer with full knowledge of the specific requirements of a mum-to-be.
+Keeping active during pregnancy has great benefits for both you and your baby. Exercise under the guidance of trainer with full knowledge of the specific requirements of a mum-to-be.
