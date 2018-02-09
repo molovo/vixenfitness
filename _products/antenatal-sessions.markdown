@@ -1,6 +1,6 @@
 ---
 title: Ante-Natal Session
-price: 30
+price: 35
 order: 4
 ---
 
