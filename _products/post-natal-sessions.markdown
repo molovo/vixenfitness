@@ -1,7 +1,7 @@
 ---
 title: Post-Natal Session
 date: 2017-07-14 21:14:00 +01:00
-price: 30
+price: 35
 order: 5
 ---
 
