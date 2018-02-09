@@ -1,6 +1,6 @@
 ---
 title: 4 x Personal Training Sessions
-price: POA
+price: 120
 order: 2
 ---
 
