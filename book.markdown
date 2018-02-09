@@ -6,7 +6,7 @@ layout: base
 ---
 
 <section class="book__intro">
-  <p>Pay as you go sessions, one off programmes or discounted block bookings available. Get in touch for prices.</p>
+  <p>Pay as you go sessions, one off programmes or discounted block bookings available. Get in touch to book your **free consultation**.</p>
 </section>
 
 <section class="sessions">
