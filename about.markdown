@@ -5,7 +5,7 @@ slug: about
 layout: page
 ---
 
-I'm Gemma Holloway, a Level 3 Qualified Personal Trainer, founder of Vixen Fitness and proud mum from Southsea. I am a mobile personal trainer, meaning that sessions can take place in a place with suits you, whether this be outdoors or in the comfort of your own home. I am also qualified in Ante/Post Natal exercise, meaning my client base also welcomes new mums.
+I am a Level 3 Personal Trainer with additional qualifications in Ante/PostNatal Exercise. I offer sessions at 24/7 Fitness in Fareham as well as mobile personal training allowing you to train from the comfort of your own home, eliminating the need for childcare. 
 
 ## Services
 ### 1-2-1 Personal Training Sessions
