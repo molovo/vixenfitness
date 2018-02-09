@@ -28,7 +28,7 @@ For many reasons attending a gym to workout may not be an option; membership cos
 
 ### How do you get started?
 
-Sessions are **just £30 per hour**, can be done in the privacy
+Sessions are **just £35 per hour**, can be done in the privacy
 of your own home, and I'll bring all the equipment
 we'll need — All you need is the motivation. You'll get a
 personalised training plan, nutrition advice and as much
