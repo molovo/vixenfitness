@@ -3,8 +3,8 @@ title: Post-Natal Personal Training
 slug: post-natal-training
 intro: You Are a<br /><span class="highlight--yellow">Yummy Mummy</span>
 subtitle: Personalised Post-Natal training <br />that fits around your life as a Mum
-layout: service
 product: Post-Natal Session
+layout: service
 ---
 
 ### Why do you need Post-Natal Personal Training?
@@ -24,4 +24,4 @@ I'm Gemma, a fully-qualified personal trainer, specialising in Pre- and Post-Nat
 
 ### How do you get started?
 
-Sessions are **just £30 per hour**, can be done in the privacy of your own home, and I'll bring all the equipment we'll need &mdash; All you need is the motivation. You'll get a personalised training plan, nutrition advice and as much help and support as you need.
+Sessions are **just £35 per hour**, can be done in the privacy of your own home, and I'll bring all the equipment we'll need &mdash; All you need is the motivation. You'll get a personalised training plan, nutrition advice and as much help and support as you need.
