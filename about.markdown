@@ -15,7 +15,10 @@ Following a full consultation, personal training sessions follow a tailored fitn
 Sessions are tailored to the common goals of a small group of individuals (between 2-4).
 
 ### Ante/Post Natal Sessions
-Taken on a 1-2-1 basis, these sessions focus on a fitness plan tailored to the goals and circumstances of the individual. Babies are welcome to attend these sessions. 
+Taken on a 1-2-1 basis, these sessions focus on a fitness plan tailored to the goals and circumstances of the individual. Babies are welcome to attend these sessions.
+
+### 4 Week Programme
+Take ownership of your training with a 4 Week Programme tailored towards your goals. Ongoing remote support included. 
 
 ## My Journey
 Due to a traumatic experience when giving birth to my daughter, I suffered PTSD and severe health anxiety. It was this that drove me to adopt a healthy lifestyle. Two years and 3 stone down, a healthy diet and regular exercise has helped me change my life!
