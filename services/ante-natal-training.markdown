@@ -4,8 +4,8 @@ slug: ante-natal-training
 intro: Legs, Bums<br /><span class="highlight--pink">and bumps</span>
 subtitle: Personalised Ante-Natal training <br />for you and your little bundle of
   joy
-layout: service
 product: Ante-Natal Session
+layout: service
 ---
 
 ### Why do you need Ante-Natal Personal Training?
@@ -24,4 +24,4 @@ With proper guidance, exercising whilst pregnant is not only perfectly safe, but
 
 ### How do you get started?
 
-Sessions are **just £30 per hour**, can be done in the privacy of your own home, and I'll bring all the equipment we'll need &mdash; All you need is the motivation. You'll get a personalised training plan, nutrition advice and as much help and support as you need.
+Sessions are **just £35 per hour**, can be done in the privacy of your own home, and I'll bring all the equipment we'll need &mdash; All you need is the motivation. You'll get a personalised training plan, nutrition advice and as much help and support as you need.
