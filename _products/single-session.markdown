@@ -1,6 +1,6 @@
 ---
 title: 1-2-1 Personal Training
-price: 30
+price: 35
 order: 1
 ---
 
